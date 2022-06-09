@@ -3,14 +3,14 @@ import {
   SupportedChainSymbols,
   SupportedChainLogo,
 } from "../../utils/constants/chains";
-import { Currency, WETH9 } from "@uniswap/sdk-core";
+import { Currency, Token, WETH9 } from "@uniswap/sdk-core";
 import { WrappedTokenInfo } from "../../state/lists/WrappedTokenInfo";
 import Logo from "../Logo";
 
 import useHttpLocations from "../../utils/hooks/useHttpLocations";
 import { WNATIVEADDRESSES } from "../../utils/addresses";
 
-function getCurrencySymbol(currency) {
+function getCurrencySymbol(currency: { symbol: string; }) {
   if (currency.symbol === "WBTC") {
     return "btc";
   }
@@ -38,7 +38,7 @@ const BLOCKCHAIN = {
   [13382]: "phx-testnet",
   // [ChainId.OKEX]: 'okex',
 };
-export function getCurrencyLogoUrls(currency) {
+export function getCurrencyLogoUrls(currency: Token) {
   const urls = [];
   urls.push(
     `https://raw.githubusercontent.com/sushiswap/icons/master/token/${getCurrencySymbol(
