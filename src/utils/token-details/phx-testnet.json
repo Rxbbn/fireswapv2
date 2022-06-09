@@ -1,0 +1,33 @@
+
+[
+    {
+      "name": "Wrapped Phoenix",
+      "address": "0xf834cABC1954e236013D4115394DBbBF1F0a0cc4",
+      "symbol": "WPHX",
+      "decimals": 18,
+      "chainId": 13382,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+      "description":"Wrapped Phoenix is an ERC-20 token on the Phoenix blockchain that represents Phoenix. Each WPHX is backed 1:1 with PHX.",
+      "supply":""
+    },
+    {
+      "name": "Matic",
+      "address": "0x9d91d1f8Ac4CF6C698a1a15c738323E2ad6F23E4",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "chainId": 13382,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png",
+      "description":"Polygon (Previously Matic Network) is the first well-structured, easy-to-use platform for Ethereum scaling and infrastructure development. Its core component is Polygon SDK, a modular, flexible framework that supports building multiple types of applications.",
+      "supply":"10,000,000,000"
+    },
+    {
+      "name": "USDCToken",
+      "address": "0xd22c5DbE967C2f9ac302729354fE32eB88b6B645",
+      "symbol": "USDC",
+      "decimals": 18,
+      "chainId": 13382,
+      "logoURI": "https://etherscan.io/token/images/centre-usdc_28.png",
+      "description":"Nexo is a lending platform for cryptocurrencies. Lenders can lend their digital assets such as bitcoin, tether, USDC, and more for interest.",
+      "supply":"1,000,000,000"
+    }
+  ]
