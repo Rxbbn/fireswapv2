@@ -169,7 +169,7 @@ const SelectToken: React.FC<IModal> = ({
                   <CurrencyList
                     onCurrencySelect={handleCurrencySelect}
                     key={index}
-                    currency={currency}
+                    currency={currency[0]}
                     selectedCurrency={selectedCurrency}
                     otherSelectedCurrency={otherSelectedCurrency}
                   />

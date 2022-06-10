@@ -15,16 +15,16 @@ interface SerializedTokenList {
 }
 // UPDATE MAINNET TOKENS ON LAUNCH // TODO: remove this
 export const mainnetTokens = {
-  wbnb: new Token(
+  wphx: new Token(
     MAINNET,
-    '0xe9e7cea3dedca5984780bafc599bd69add087d56',
+    '0xcb186051DD62914B6dFc56c257823bfDA20DbEe6',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.com/',
+    'WPHX',
+    'Wrapped Phoenix',
+    'https://www.cryptophoenix.org/',
   ),
     // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
-  bnb: new Token(MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'), //update to mainnet
+  phx: new Token(MAINNET, '0xcb186051DD62914B6dFc56c257823bfDA20DbEe6', 18, 'PHX', 'PHX', 'https://www.cryptophoenix.org/'), //update to mainnet
   rgp: new Token(
     MAINNET,
     '0xfa262f303aa244f9cc66f312f0755d89c3793192',

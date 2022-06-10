@@ -263,7 +263,7 @@ function parseCurrencyFromURLParameter(urlParam: any, symbol = ""): string {
 function queryParametersToSwapState(parsedQs: any, chainId: number) {
   let inputCurrency = parseCurrencyFromURLParameter(parsedQs.inputCurrency);
   let outputCurrency = parseCurrencyFromURLParameter(parsedQs.outputCurrency);
-  const symbol = SupportedChainSymbols[chainId ?? 13382];
+  const symbol = SupportedChainSymbols[chainId ?? 13381];
   if (inputCurrency === "" && outputCurrency === "") {
     inputCurrency = symbol;
     outputCurrency = "";

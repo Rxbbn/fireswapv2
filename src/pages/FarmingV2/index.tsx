@@ -698,6 +698,7 @@ if(location && location.includes("RGPv2")){
         if (sym1 === "WROSE") sym1 = "ROSE";
         if (sym0 === "wROSE") sym0 = "ROSE";
         if (sym1 === "wROSE") sym1 = "ROSE";
+        if (sym1 === "wPHX") sym1 = "PHX";
 
         return `${sym0}-${sym1}`;
       };
@@ -1935,7 +1936,7 @@ if(location && location.includes("RGPv2")){
           window.localStorage.setItem("firstFarmVisit", "2");
           setWelcomeModal((state) => !state);
         }}
-        textHeader={"Welcome to SmartSwap Farming"}
+        textHeader={"Welcome to Phoenix Farming"}
         welcomeText='With farming, you can maximize the rate of return on capital and generate rewards on your cryptocurrency holdings.'
       />
 

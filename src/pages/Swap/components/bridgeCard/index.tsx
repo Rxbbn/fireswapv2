@@ -21,7 +21,7 @@ const BridgeCard = () => {
 
   return (
     <>
-      {chainId === 137 ||
+      {chainId === 13381 ||
         chainId === 80001 ||
         chainId === 42262 ||
         chainId === 42261 ? (
@@ -33,7 +33,7 @@ const BridgeCard = () => {
           fontWeight='400'
           borderRadius='6px'
           backgroundColor={
-            chainId === 137 || chainId === 80001
+            chainId === 13381 || chainId === 80001
               ? backgroundColor
               : oasisbgColor
           }
@@ -44,7 +44,7 @@ const BridgeCard = () => {
                 w='28px'
                 h='28px'
                 src={
-                  chainId === 137 || chainId === 80001 ? MATICLOGO : OASISLOGO
+                  chainId === 13381 || chainId === 80001 ? MATICLOGO : OASISLOGO
                 }
               />
               <Box ml={4}>
@@ -52,17 +52,17 @@ const BridgeCard = () => {
                   fontWeight='normal'
                   fontSize='16px'
                   color={
-                    chainId === 137 || chainId === 80001
+                    chainId === 13381 || chainId === 80001
                       ? textColor
                       : oasisTextColor
                   }
                   mb={2}
                 >
-                  {chainId === 137 || chainId === 80001
+                  {chainId === 13381 || chainId === 80001
                     ? "Polygon Token Bridge"
                     : "Deposit tokens on Oasis Network"}
                 </Text>
-                {chainId === 137 || chainId === 80001 ? (
+                {chainId === 13381 || chainId === 80001 ? (
                   <Text fontWeight='normal' fontSize='14px' color={textColor}>
                     Deposit tokens to the polygon network.
                   </Text>
@@ -86,7 +86,7 @@ const BridgeCard = () => {
             </Flex>
             <Link
               href={
-                chainId === 137 || chainId === 80001
+                chainId === 13381 || chainId === 80001
                   ? "https://wallet.polygon.technology/bridge"
                   : "https://portalbridge.com/#/transfer"
               }
@@ -95,7 +95,7 @@ const BridgeCard = () => {
               <ExternalLinkIcon
                 w='28px'
                 color={
-                  chainId === 137 || chainId === 80001
+                  chainId === 13381 || chainId === 80001
                     ? textColor
                     : oasisTextColor
                 }

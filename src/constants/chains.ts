@@ -50,7 +50,7 @@ export const CHAIN_INFO: ChainInfo = {
   [SupportedChainId.PHOENIX]: {
     docs: "",
     explorer: "https://phoenixplorer.com",
-    infoLink: "",
+    infoLink: "https://cryptophoenix.org",
     label: "Phoenix",
     nativeCurrency: { name: "Phoenix", symbol: "PHX", decimals: 18 },
   },

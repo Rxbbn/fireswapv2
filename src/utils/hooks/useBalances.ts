@@ -11,9 +11,9 @@ import {Web3Provider} from "@ethersproject/providers";
 export const useNativeBalance = () => {
   const { account, chainId, library } = useActiveWeb3React();
   const [Balance, setBalance] = useState<string>('');
-  const [Symbol, setSymbol] = useState(SupportedChainSymbols[13382]);
-  const [Name, setName] = useState(SupportedChainName[13382]);
-  const [Logo, setLogo] = useState(SupportedChainLogo[13382]);
+  const [Symbol, setSymbol] = useState(SupportedChainSymbols[13381]);
+  const [Name, setName] = useState(SupportedChainName[13381]);
+  const [Logo, setLogo] = useState(SupportedChainLogo[13381]);
 
   const trxState = useSelector<RootState>((state) => state.application.modal?.trxState);
   const stateChanged : boolean = trxState === 2;
@@ -40,9 +40,9 @@ export const useNativeBalance = () => {
         }
       } else {
         console.log('Connect wallet');
-        setSymbol(SupportedChainSymbols[13382]);
-          setName(SupportedChainName[13382]);
-          setLogo(SupportedChainLogo[13382]);
+        setSymbol(SupportedChainSymbols[13381]);
+          setName(SupportedChainName[13381]);
+          setLogo(SupportedChainLogo[13381]);
       }
     };
     getBalance();

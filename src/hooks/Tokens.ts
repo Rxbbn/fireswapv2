@@ -55,12 +55,12 @@ function useTokensFromMap(tokenMap: TokenAddressMap, includeUserAdded: boolean):
         return useTokensFromMap(allTokens, true)
       }
 
-  export const ExtendedEther = (chainId:number  = 13382,symbol:string,name:string,logo:string) =>{
+  export const ExtendedEther = (chainId:number  = 13381,symbol:string,name:string,logo:string) =>{
     let native = {
       chainId: chainId,
       decimals: 18,
       isNative: true,
-      isToken: true,
+      isToken: false,
       name,
       symbol,
       logoURI:logo};
@@ -149,7 +149,7 @@ try{
 
  };
     
-    getToken(tokenAddress,chainId ?? 13382)
+    getToken(tokenAddress,chainId ?? 13381)
   }, [ tokenAddress,
     chainId,
     ]);

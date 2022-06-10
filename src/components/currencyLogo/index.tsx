@@ -10,7 +10,7 @@ import Logo from "../Logo";
 import useHttpLocations from "../../utils/hooks/useHttpLocations";
 import { WNATIVEADDRESSES } from "../../utils/addresses";
 
-function getCurrencySymbol(currency: { symbol: string; }) {
+function getCurrencySymbol(currency: Token) {
   if (currency.symbol === "WBTC") {
     return "btc";
   }
@@ -101,7 +101,7 @@ const CurrencyLogo: FunctionComponent<CurrencyLogoProps> = ({
       if (
         currency?.address === WNATIVEADDRESSES[currency.chainId] ||
         currency.isNative ||
-        (currency.symbol === "WETH" && currency.equals(WETH9[currency.chainId]))
+        (currency.symbol === "WPHX" && currency.equals(WETH9[currency.chainId]))
       ) {
         return [LOGO[currency.chainId], unknown];
       } else if (currency.isToken && currency.symbol === "RGP") {

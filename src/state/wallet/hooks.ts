@@ -53,7 +53,7 @@ export const GetAddressTokenBalance = (currency: Currency | undefined) => {
   return [balance];
 };
 
-export const ExtendedEther = (chainId: number = 56, symbol: string, name: string, logo: string) => {
+export const ExtendedEther = (chainId: number = 13381, symbol: string, name: string, logo: string) => {
   let native = {
     chainId: chainId,
     decimals: 18,

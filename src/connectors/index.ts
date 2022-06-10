@@ -5,7 +5,7 @@ import { BscConnector } from "@binance-chain/bsc-connector";
 import { NetworkConnector } from "./NetworkConnector";
 import { ALL_SUPPORTED_CHAIN_IDS, SupportedChainId } from "../constants/chains";
 
-const NETWORK_URL = 'http://testnet.phoenixplorer.com:8545';
+const NETWORK_URL = 'https://rpc.phoenixplorer.com';
 
 const RPC = {
   [SupportedChainId.PHOENIX]: `https://rpc.phoenixplorer.com`,
@@ -21,7 +21,7 @@ export enum ConnectorNames {
 }
 
 export const NETWORK_CHAIN_ID: number = parseInt(
-  process.env.REACT_APP_CHAIN_ID ?? "13382"
+  process.env.REACT_APP_CHAIN_ID ?? "13381"
 );
 
 if (typeof NETWORK_URL === "undefined") {

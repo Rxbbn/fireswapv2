@@ -80,13 +80,13 @@ export const filterFarms = (
     console.log(dataArray);
     const lastItem = dataArray.splice(
       chainId === 80001 ||
-        chainId === 137 ||
+        chainId === 13381 ||
         chainId === 42261 ||
         chainId === 42262
         ? 3
         : arrayLength - 2,
       chainId === 80001 ||
-        chainId === 137 ||
+        chainId === 13381 ||
         chainId === 42261 ||
         chainId === 42262
         ? 10
@@ -111,7 +111,7 @@ export const filterFarms = (
     const firstItem = dataArray.splice(
       0,
       chainId === 80001 ||
-        chainId === 137 ||
+        chainId === 13381 ||
         chainId === 42261 ||
         chainId === 42262
         ? 9

@@ -184,7 +184,7 @@ const SetPrice = () => {
     if(chainId === 56) marketArray = binanceMarketArray
     else if(chainId === 97) marketArray = binanceTestMarketArray
     else if(chainId === 137) marketArray = polygonMarketArray
-    else if(chainId === 13381) marketArray = polygonMarketArray
+    else if(chainId === 13382) marketArray = polygonMarketArray
     else if(chainId === 13381) marketArray = phoenixMarketArray
     if(marketArray && marketArray.find((item:any)=> item.name.toLowerCase() ===market.toLowerCase())){
       let item = marketArray.find((item:any)=> item.name.toLowerCase() ===market.toLowerCase())

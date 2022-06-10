@@ -3,7 +3,6 @@ import { Box, Flex, useColorModeValue, useMediaQuery } from "@chakra-ui/react";
 import ShowDetails from "./components/details/ShowDetails";
 import SendToken from "./components/sendToken/index";
 import History from "./components/history/History";
-import BridgeCard from "./components/bridgeCard";
 import WelcomeModal from "../../components/Onboarding/WelcomeModal";
 import Joyride from "react-joyride";
 import { tourSteps } from "../../components/Onboarding/SwapSteps";
@@ -15,7 +14,7 @@ const Swap = () => {
   const [run, setRun] = useState(false);
   const bgColor = useColorModeValue("#319EF6", "#4CAFFF");
 
-  // useUpdateBalance("");
+   useUpdateBalance("");
 
   useEffect(() => {
     const visits = window.localStorage.getItem("fiirstSwapVisit");
@@ -50,7 +49,7 @@ const Swap = () => {
         startToure={strartWelcomeRide}
         openModal={welcomeModal}
         closeModal={() => setWelcomeModal((state) => !state)}
-        textHeader={"Welcome to RigelProtocol SmartSwap"}
+        textHeader={"Welcome to Fireswap"}
         welcomeText='We would like to get you introduced to this platform and help you find your way around it.
                      If you’d love that, then take this short tour.'
       />
@@ -66,7 +65,7 @@ const Swap = () => {
             <Box mb='110px'>
               <Box mx={4} mt={8} w={["100%", "100%", "45%", "29.5%"]} mb={4}>
                 <SendToken />
-                <BridgeCard />
+                
               </Box>
 
               <Box mx={4} w={["100%", "100%", "45%", "29.5%"]} mb={4}>
@@ -85,7 +84,7 @@ const Swap = () => {
 
               <Box mx={4} w={["100%", "100%", "45%", "29.5%"]} mb={4}>
                 <SendToken />
-                <BridgeCard />
+                
               </Box>
 
               <Box mx={5} w={["100%", "100%", "45%", "29.5%"]} mb={4}>

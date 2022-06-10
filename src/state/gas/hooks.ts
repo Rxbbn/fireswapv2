@@ -43,9 +43,9 @@ export const useUpdateUserGasPreference = () => {
 
   useMemo(() => {
     if (chainId) {
-      if (chainId === 137 && !changed) {
+      if (chainId === 13381 && !changed) {
         setDefaultGasPriceForNetworks(INITIAL_GASPRICE_INCREASE());
-      } else if (chainId !== 137 && !changed) {
+      } else if (chainId !== 13381 && !changed) {
         setDefaultGasPriceForNetworks(INITIAL_GASPRICE_INCREASE());
       }
     }

@@ -19,7 +19,7 @@ export const tourSteps = [
   {
     target: '.HeaderDApps',
     title: <TitleBox>DApps</TitleBox>,
-    content: <ContentBox>This is the DApps dropdown, it is used to navigate to other DApps on RigelProtocol network</ContentBox>,
+    content: <ContentBox>This is the DApps dropdown, it is used to navigate to other DApps on Phoenix</ContentBox>,
     placement: "left-start",
     locale: {
       next: <NextBtn />,
@@ -34,8 +34,8 @@ export const tourSteps = [
 
   {
     target: '.HeaderRide',
-    title: <TitleBox>SmartSwap Products</TitleBox>,
-    content: <ContentBox>These links lead to individual products under the RigelProtocol SmartSwap DApp.</ContentBox>,
+    title: <TitleBox>Fireswap Products</TitleBox>,
+    content: <ContentBox>These links lead to individual products under the Fireswap DApp.</ContentBox>,
     placement: "left-end",
     locale: {
       next: <NextBtn />,
@@ -50,7 +50,7 @@ export const tourSteps = [
   {
     target: '.Network',
     title: <TitleBox>Network</TitleBox>,
-    content: <ContentBox>This shows the networks supported by RigelProtocol so you can change to any of them by clicking on it.</ContentBox>,
+    content: <ContentBox>This shows the networks supported by Fireswap so you can change to any of them by clicking on it.</ContentBox>,
     locale: {
       next: <NextBtn />,
       back: <BackBtn />,

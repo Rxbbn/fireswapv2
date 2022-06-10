@@ -260,6 +260,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "wPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             /
@@ -272,6 +274,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "wPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } LP token Removal`,
               trxState: TrxState.TransactionSuccessful,
@@ -299,6 +303,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "wPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -311,6 +317,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "wPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token Removal`,
             trxState: TrxState.TransactionFailed,
@@ -358,6 +366,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "wPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
            and ${parseFloat(formatAmountBMin).toFixed(6)}
@@ -370,6 +380,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "wPHX"
+              ? "PHX"
               : pool?.path[1].token
           } `,
             trxState: TrxState.WaitingForConfirmation,
@@ -452,6 +464,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "wPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             and ${outPutValueForTokenB}
@@ -464,6 +478,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "wPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } `,
               URL: explorerLink,

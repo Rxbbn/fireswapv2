@@ -44,7 +44,7 @@ const multicall = async <T = any>(abi: any[], calls: Call[]): Promise<T> => {
 // },
 
 export const getMulticallContract = (signer?: ethers.Signer | ethers.providers.Provider) => {
-  return getContract(MultiCallAbi, "0x47F391AF4F253c3DBD457b3ac8b552035F884bD1", signer)
+  return getContract(MultiCallAbi, "0xf8c6608F1eBdB738Ca056Cf6392cCbF830f29537", signer)
 }
 
 const getContract = (abi: any, address: string, signer?: ethers.Signer | ethers.providers.Provider) => {

@@ -145,7 +145,7 @@ export function useDerivedMintInfo(): {
 
   const getMaxValue = async (currency: Currency, library: Web3Provider) => {
     if (currency.isNative) {
-      // return Balance === "0.0000" ? "0" :  Balance
+     // return Balance === "0.0000" ? "0" :  Balance
       const balance = await library?.getBalance(account as string);
       return balance ? JSBI.BigInt(balance.toString()) : undefined;
     } else if (isAddress(currency.address)) {

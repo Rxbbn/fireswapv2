@@ -6,7 +6,7 @@ export const RGPADDRESSES: { [key: string]: string } = {
 
 //Smartswap factory addresses
 export const SMARTSWAPFACTORYADDRESSES: { [key: string]: string } = {
-  "13381": "0x",
+  "13381": "0xaeA039F542c88Cc14A6Ca38deeeECf91D9B790D6",
   "13382": "0x16cBF4940787aF8E2E9EA7f35152936964296C0A",
 
 };
@@ -14,7 +14,7 @@ export const SMARTSWAPFACTORYADDRESSES: { [key: string]: string } = {
 
 //SMARTSWAP ROUTER
 export const SMARTSWAPROUTER: { [key: string]: string } = {
-  "13381": "0x",
+  "13381": "0x8d5567953B0aC3348C959c722D4327f29155AEE4",
   "13382": "0x49F75a434c45dab940Fd8e914056F8d7ae189b5e",
 
 };
@@ -37,7 +37,7 @@ export const SMARTSWAPNFTTWO: { [key: string]: string } = {
 
 //Native Wrapped
 export const WNATIVEADDRESSES: { [key: string]: string } = {
-  "13381": "0x",
+  "13381": "0xcb186051DD62914B6dFc56c257823bfDA20DbEe6",
   "13382": "0xf834cABC1954e236013D4115394DBbBF1F0a0cc4",
 
 };
@@ -45,14 +45,14 @@ export const WNATIVEADDRESSES: { [key: string]: string } = {
 
 
 export const WNATIVEADDRESSESSYMBOL: { [key: string]: string } = {
-  "13381": "0x",
+  "13381": "0xcb186051DD62914B6dFc56c257823bfDA20DbEe6",
   "13382": "0xf834cABC1954e236013D4115394DBbBF1F0a0cc4",
 
 };
 
 export const SYMBOLS: { [key: string]: { [key: string]: string } } = {
   PHX: {
-    "13381": "0x",
+    "13381": "0xcb186051DD62914B6dFc56c257823bfDA20DbEe6",
     "13382": "0xf834cABC1954e236013D4115394DBbBF1F0a0cc4",
   },
 };
