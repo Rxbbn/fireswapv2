@@ -11,14 +11,6 @@
     "keywords": ["rigel", "default", "protocol"],
     "tokens": [
       {
-        "symbol": "wPHX",
-        "name": "Wrapped PHX",
-        "chainId": 13381,
-        "decimals": 18,
-        "logoURI": "https://phoenix_foundation.mypinata.cloud/ipfs/QmXV7uoX24cBEzrdV4K4nR5iLaERPc3eeLDjNCkkFFXdRV",
-        "address": "0xcb186051DD62914B6dFc56c257823bfDA20DbEe6"
-      },
-      {
         "name": "Zebrocoin",
         "symbol": "ZEBRO",
         "address": "0x89C4434119b237922069673439C35F90025563C9",

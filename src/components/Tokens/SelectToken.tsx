@@ -71,8 +71,8 @@ const SelectToken: React.FC<IModal> = ({
     [onCurrencySelect]
   );
   const allTokens = useAllTokens();
-   useUpdateBalance("");
-   
+  // useUpdateBalance("");
+  // useUpdateTokenList()
   // if they input an address, use it
   const searchToken = useToken(debouncedQuery);
   const searchTokenIsAdded = useIsUserAddedToken(searchToken);
@@ -169,7 +169,7 @@ const SelectToken: React.FC<IModal> = ({
                   <CurrencyList
                     onCurrencySelect={handleCurrencySelect}
                     key={index}
-                    currency={currency[0]}
+                    currency={currency}
                     selectedCurrency={selectedCurrency}
                     otherSelectedCurrency={otherSelectedCurrency}
                   />
