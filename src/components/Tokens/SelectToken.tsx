@@ -175,7 +175,21 @@ const SelectToken: React.FC<IModal> = ({
                   />
                 );
               })
-            ) : (
+            ) :
+            //   sortedTokenList?.length > 0 ? (
+            //   sortedTokenList.map((currency, index) => {
+            //     return (
+            //       <CurrencyList
+            //         onCurrencySelect={handleCurrencySelect}
+            //         key={index}
+            //         currency={currency[0]}
+            //         selectedCurrency={selectedCurrency}
+            //         otherSelectedCurrency={otherSelectedCurrency}
+            //       />
+            //     );
+            //   })
+            // ) :
+             (
               <Text textAlign='center' py='7'>
                 No Result found...
               </Text>

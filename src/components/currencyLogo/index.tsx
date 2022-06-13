@@ -10,7 +10,8 @@ import Logo from "../Logo";
 import useHttpLocations from "../../utils/hooks/useHttpLocations";
 import { WNATIVEADDRESSES } from "../../utils/addresses";
 
-function getCurrencySymbol(currency: Token) {
+
+function getCurrencySymbol(currency) {
   if (currency.symbol === "WBTC") {
     return "btc";
   }

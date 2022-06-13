@@ -1,5 +1,5 @@
 import {useMemo,useCallback, useEffect} from "react"
-import DEFAULT_TOKEN_LIST from "../../utils/constants/tokenList/fireswap-default.tokenList.json"
+import DEFAULT_TOKEN_LIST from "../../utils/constants/tokenList/fireswap-default.tokenlist.json"
 import { TokenList } from '@uniswap/token-lists'
 import {WrappedTokenInfo} from "./WrappedTokenInfo"
 import { TagInfo } from "./WrappedTokenInfo"

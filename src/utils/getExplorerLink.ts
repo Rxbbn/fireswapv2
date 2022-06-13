@@ -75,14 +75,14 @@ export function getExplorerLink(
   if (chainId === SupportedChainId.PHOENIX) {
     switch (type) {
       case ExplorerDataType.TRANSACTION:
-        return `https://www.phoenixplorer.com/tx/${data}`;
+        return `https://phoenixplorer.com/tx/${data}`;
       case ExplorerDataType.ADDRESS:
       case ExplorerDataType.TOKEN:
-        return `https://www.phoenixplorer.com/address/${data}`;
+        return `https://phoenixplorer.com/address/${data}`;
       case ExplorerDataType.BLOCK:
-        return `https://www.phoenixplorer.com/block/${data}`;
+        return `https://phoenixplorer.com/block/${data}`;
       default:
-        return `https://www.phoenixplorer.com`;
+        return `https://phoenixplorer.com`;
     }
   }
 
