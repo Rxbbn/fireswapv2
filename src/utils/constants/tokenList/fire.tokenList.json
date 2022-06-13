@@ -1,0 +1,31 @@
+{
+    "name": "Fireswap List",
+    "timestamp": "2021-05-06T00:00:00Z",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "patch": 0
+    },
+    "tags": {},
+    "logoURI": "https://assets.coingecko.com/coins/images/21700/small/phoenix.png?1639728227",
+    "keywords": ["rigel", "default", "protocol"],
+    "tokens": [
+      {
+        "symbol": "ZEBRO",
+        "name": "Zebrocoin",
+        "chainId": 13381,
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/21700/small/phoenix.png?1639728227",
+        "address": "0x89C4434119b237922069673439C35F90025563C9"
+      },
+      {
+        "symbol": "ZUSD",
+        "name": "ZebroUSD",
+        "chainId": 13381,
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/21700/small/phoenix.png?1639728227",
+        "address": "0x6ea214917F28AD147E01201Cd88869332198D007"
+      }
+    ]
+  }
+  
