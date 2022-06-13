@@ -240,7 +240,7 @@ const Index = () => {
                 alignItems='center'
                 px={4}
                 mx={5}
-                backgroundColor={mode === "dark" ? "#213345" : "#F2F5F8"}
+                backgroundColor={mode === "dark" ? "#1d1d1d" : "#F2F5F8"}
                 border={
                   mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"
                 }
@@ -262,7 +262,7 @@ const Index = () => {
                 alignItems='center'
                 px={3}
                 mx={5}
-                backgroundColor={mode === "dark" ? "#213345" : "#F2F5F8"}
+                backgroundColor={mode === "dark" ? "#1d1d1d" : "#F2F5F8"}
                 border={
                   mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"
                 }

@@ -12,8 +12,8 @@ import { BiPen } from 'react-icons/bi';
 import { HiOutlineExternalLink } from "react-icons/hi"
 export const SwitchIcon = () => {
   const arrowColor = useColorModeValue('#333333', '#F1F5F8');
-  const switchBgcolor = useColorModeValue('#F2F5F8', '#213345');
-  const borderColor = useColorModeValue('#DEE5ED', '#324D68');
+  const switchBgcolor = useColorModeValue('#F2F5F8', '#1d1d1d');
+  const borderColor = useColorModeValue('#DEE5ED', '#f47904');
 
   return (
     <Icon
@@ -32,8 +32,8 @@ export const SwitchIcon = () => {
 };
 export const RightIcon = () => {
   const arrowColor = useColorModeValue('#333333', '#F1F5F8');
-  const switchBgcolor = useColorModeValue('#F2F5F8', '#213345');
-  const borderColor = useColorModeValue('#DEE5ED', '#324D68');
+  const switchBgcolor = useColorModeValue('#F2F5F8', '#1d1d1d');
+  const borderColor = useColorModeValue('#DEE5ED', '#f47904');
 
   return (
     <Icon

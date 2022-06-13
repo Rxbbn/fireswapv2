@@ -21,7 +21,7 @@ const ImportRow =({
 }:IImportRow) => {
     const lightTextColor = useColorModeValue("#666666", "#DCE6EF");
     const heavyTextColor = useColorModeValue("#333333", "#F1F5F8"); 
-  const boxColor = useColorModeValue("#F2F5F8","#213345")
+  const boxColor = useColorModeValue("#F2F5F8","#1d1d1d")
      // check if already active on list or local storage tokens
   const isAdded = useIsUserAddedToken(token)
   const isActive = useIsTokenActive(token)

@@ -24,7 +24,7 @@ const MarketDropDown = ({marketType,setMarketType,chainID,switchMarket}:{marketT
     else if(chainID === 137) setMarketArray(polygonMarketArray)
     else if(chainID === 13381) setMarketArray(phoenixMarketArray)
   },[chainID])
-    const borderColor = useColorModeValue('#DEE6ED', '#324D68');
+    const borderColor = useColorModeValue('#DEE6ED', '#f47904');
     return (
         <Menu>
         <MenuButton

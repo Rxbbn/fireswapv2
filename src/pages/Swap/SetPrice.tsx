@@ -56,12 +56,12 @@ import { GetAddressTokenBalance } from '../../state/wallet/hooks';
 
 const SetPrice = () => {
   const [isMobileDevice] = useMediaQuery('(max-width: 750px)');
-  const borderColor = useColorModeValue('#DEE6ED', '#324D68');
+  const borderColor = useColorModeValue('#DEE6ED', '#161616');
   const iconColor = useColorModeValue('#666666', '#DCE6EF');
   const textColorOne = useColorModeValue('#333333', '#F1F5F8');
   const lightmode = useColorModeValue(true, false);
-  const buttonBgcolor = useColorModeValue('#F2F5F8', '#213345');
-  const switchBgcolor = useColorModeValue("#F2F5F8", "#213345");
+  const buttonBgcolor = useColorModeValue('#F2F5F8', '#1d1d1d');
+  const switchBgcolor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const dispatch = useDispatch();
   const color = useColorModeValue('#999999', '#7599BD');
   const location = useLocation().pathname;

@@ -47,10 +47,10 @@ const TransactionSettings = () => {
   const textColor = useColorModeValue("#333333", "#F1F5F8");
   const iconColor = useColorModeValue("#666666", "#DCE5EF");
   const bgColor = useColorModeValue("#ffffff", "#999999");
-  const buttonBgcolor = useColorModeValue("#FFFFFF", "#213345");
-  const buttonBgColorTwo = useColorModeValue("#F2F5F8", "#324D68");
+  const buttonBgcolor = useColorModeValue("#FFFFFF", "#1d1d1d");
+  const buttonBgColorTwo = useColorModeValue("#F2F5F8", "#161616");
   const textColorTwo = useColorModeValue("#666666", "#DCE6EF");
-  const borderColor = useColorModeValue("#DEE6ED", "#324D68");
+  const borderColor = useColorModeValue("#DEE6ED", "#f47904");
   const activeButtonColor = useColorModeValue("#319EF6", "#4CAFFF");
   const inputRightAddOnBgColor = useColorModeValue("#F2F5F8", "");
   const [slippageValue, setSlippageValue] = useState("");

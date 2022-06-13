@@ -22,7 +22,7 @@ const History = () => {
   const activeTabColor = useColorModeValue('#333333', '#F1F5F8');
   const nonActiveTabColor = useColorModeValue('#CCCCCC', '#4A739B');
   const iconColor = useColorModeValue('#666666', '#DCE5EF');
-  const borderColor = useColorModeValue('#DEE5ED', '#324D68');
+  const borderColor = useColorModeValue('#DEE5ED', '#161616');
   const [data, setData] = useState<DataType | null>(null)
   const [showModal, setShowModal] = useState(false)
   const [socket,setSocket] = useState <any>(null)

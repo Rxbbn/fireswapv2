@@ -55,9 +55,9 @@ const SelectToken: React.FC<IModal> = ({
   const [searchQuery, setSearchQuery] = useState<string>("");
   const debouncedQuery = useDebounce(searchQuery, 300);
   const bgColor = useColorModeValue("#FFF", "#15202B");
-  const boxShadow = useColorModeValue("#DEE6ED", "#324D68");
+  const boxShadow = useColorModeValue("#DEE6ED", "#f47904");
   const textColor = useColorModeValue("#319EF6", "#4CAFFF");
-  const boxColor = useColorModeValue("#F2F5F8", "#213345");
+  const boxColor = useColorModeValue("#F2F5F8", "#1d1d1d");
 
   useEffect(() => {
     setSearchQuery("");

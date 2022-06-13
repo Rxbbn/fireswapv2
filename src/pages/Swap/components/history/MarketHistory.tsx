@@ -8,7 +8,7 @@ import { ExplorerDataType, getExplorerLink } from '../../../../utils/getExplorer
 const MarketHistory = ({data} : {data: DataType}) => {
     const activeTabColor = useColorModeValue('#333333', '#F1F5F8');
     const nonActiveTabColor = useColorModeValue('#CCCCCC', '#4A739B');
-    const borderColor = useColorModeValue('#DEE5ED', '#324D68');
+    const borderColor = useColorModeValue('#DEE5ED', '#161616');
     const successColor = useColorModeValue('#22bb33', '#75f083');
 
     return (

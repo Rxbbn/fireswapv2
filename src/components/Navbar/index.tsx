@@ -41,7 +41,7 @@ const Index = () => {
   const location = useLocation().pathname;
   const Logo = useColorModeValue(LightLogo, DarkLogo);
   const mobileNavColor = useColorModeValue("#FFFFFF", "#999999");
-  const mobileNavBorderColor = useColorModeValue("#999999", "#999999");
+  const mobileNavBorderColor = useColorModeValue("#999999", "#f47904");
 
   return (
     <>

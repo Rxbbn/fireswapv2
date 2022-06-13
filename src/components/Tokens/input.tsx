@@ -13,7 +13,7 @@ type IProps = {
 
 const ModalInput = ({placeholder,changeInput,searchQuery}: IProps) => {
   const inputColor = useColorModeValue('#CCCCCC', '#4A739B');
-  const borderColor = useColorModeValue('#DEE6ED', '#324D68');
+  const borderColor = useColorModeValue('#DEE6ED', '#f47904');
   return (
     <>
       <Flex alignItems="center" mt={3} justifyContent="space-between">

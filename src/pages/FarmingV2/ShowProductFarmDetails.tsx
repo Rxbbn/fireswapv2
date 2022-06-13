@@ -725,7 +725,7 @@ return (
       <Flex
   flexDirection={["column", "column", "row"]}
   color={mode === DARK_THEME ? "#F1F5F8" : "#333333"}
-  background={mode === DARK_THEME ? "#213345" : "#F2F5F8"}
+  background={mode === DARK_THEME ? "#1d1d1d" : "#F2F5F8"}
   padding='0 20px'
   paddingBottom={["20px","20px","0"]}
   border={

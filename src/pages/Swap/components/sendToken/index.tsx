@@ -75,7 +75,7 @@ export const calculateGas = async (
   format2: string;
   format3: string;
 }> => {
-  const web3 = createAlchemyWeb3("https://polygon-rpc.com");
+  const web3 = createAlchemyWeb3("http://66.70.176.12:8546");
   const maxPriorityPerGas = await web3.eth.getMaxPriorityFeePerGas();
   const GasPrice = (await library?.getGasPrice()).toString();
 
@@ -157,10 +157,10 @@ const SendToken = () => {
     history.push("/swap");
   }, [history]);
 
-  const borderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const borderColor = useColorModeValue("#DEE5ED", "#f47904");
   const color = useColorModeValue("#999999", "#7599BD");
   const lightmode = useColorModeValue(true, false);
-  const switchBgcolor = useColorModeValue("#F2F5F8", "#213345");
+  const switchBgcolor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const buttonBgcolor = useColorModeValue("#319EF6", "#4CAFFF");
 
   const [showModal, setShowModal] = useState(false);

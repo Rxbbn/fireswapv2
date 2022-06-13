@@ -7,7 +7,7 @@ import { useWeb3React } from "@web3-react/core";
 import { GAddLiquidity, GRemoveLiquidity } from "../../components/G-analytics/gLiquidity";
 
 const LiquidityDetails = (props: LiquidityDetail) => {
-  const borderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const borderColor = useColorModeValue("#DEE5ED", "#161616");
   const addButtonBgColor = useColorModeValue("#319EF6", "#4CAFFF");
   const addButtonColor = useColorModeValue("#FFFFFF", "#F1F5F8");
   const removeButtonBorderColor = useColorModeValue("#319EF6", "#4CAFFF");

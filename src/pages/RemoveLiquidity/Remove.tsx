@@ -52,14 +52,14 @@ const Remove = () => {
   const [isTabDevice] = useMediaQuery("(min-width: 990px)");
   const [isTabDevice2] = useMediaQuery("(max-width: 1200px)");
 
-  const borderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const borderColor = useColorModeValue("#DEE5ED", "#161616");
   const topIcons = useColorModeValue("#666666", "#DCE6EF");
   const titleColor = useColorModeValue("#666666", "#DCE5EF");
-  const positionBgColor = useColorModeValue("#F2F5F8", "#213345");
+  const positionBgColor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const positiontextColor = useColorModeValue("#666666", "#DCE5EF");
   const pairTextColor = useColorModeValue("#333333", "#F1F5F8");
   const pairinformationBgColor = useColorModeValue("#FFFFFF", "#999999");
-  const pairinformationBorderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const pairinformationBorderColor = useColorModeValue("#DEE5ED", "#161616");
   const approveButtonColor = useColorModeValue("#FFFFFF", "#FFFFFF");
   const WithdrawalButtonColor = useColorModeValue("#FFFFFF", "#FFFFFF");
   const approveButtonBgColor = useColorModeValue("#319EF6", "#4CAFFF");

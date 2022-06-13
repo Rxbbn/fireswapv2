@@ -14,8 +14,8 @@ import { GTokenDetailsTab } from '../../../../components/G-analytics/gIndex';
 const ShowDetails = () => {
   const textColor = useColorModeValue('#333333', '#F1F5F8');
   const iconColor = useColorModeValue('#666666', '#DCE5EF');
-  const borderColor = useColorModeValue('#DEE5ED', '#324D68');
-  const boxColor = useColorModeValue("#F2F5F8", "#213345");
+  const borderColor = useColorModeValue('#DEE5ED', '#161616');
+  const boxColor = useColorModeValue("#F2F5F8", "#1d1d1d");
 
 
   const [viewInfo, setViewInfo] = useState<Boolean>(false);

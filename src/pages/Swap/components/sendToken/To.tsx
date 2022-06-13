@@ -29,7 +29,7 @@ const To: React.FC<ToProps> = ({
   placeholder,
   onHover
 }) => {
-  const borderColor = useColorModeValue('#DEE5ED', '#324D68');
+  const borderColor = useColorModeValue('#DEE5ED', '#161616');
   const [tokenModal, setTokenModal] = useState(false);
   const handleInputSelect = useCallback(
     (outputCurrency) => {

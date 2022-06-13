@@ -8,7 +8,7 @@ interface DetailBoxProps {
 
 const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
   const textColor = useColorModeValue("#333333", "#F1F5F8");
-  const borderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const borderColor = useColorModeValue("#DEE5ED", "#161616");
   const secondaryText = useColorModeValue("#666666", "#DCE6EF");
 
   return (

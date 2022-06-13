@@ -8,8 +8,8 @@ import { isAddress } from "../../utils";
 
 const Liquidities = (props: Liquidity) => {
   const [showDetails, setShowDetails] = useState(false);
-  const borderColor = useColorModeValue("#DEE5ED", "#324D68");
-  const liquidityPositionBgColor = useColorModeValue("#F2F5F8", "#213345");
+  const borderColor = useColorModeValue("#DEE5ED", "#161616");
+  const liquidityPositionBgColor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const textColor = useColorModeValue("#333333", "#F1F5F8");
   const manageColor = useColorModeValue("#666666", "#DCE5EF");
   const { chainId } = useActiveWeb3React();

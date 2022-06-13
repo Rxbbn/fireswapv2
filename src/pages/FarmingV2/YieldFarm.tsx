@@ -121,7 +121,7 @@ const YieldFarm = ({
           mode === LIGHT_THEME
             ? "#F2F5F8 !important"
             : mode === DARK_THEME
-            ? "#213345 !important"
+            ? "#1d1d1d !important"
             : "#F2F5F8 !important"
         }
         padding='15px 20px'

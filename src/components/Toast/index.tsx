@@ -25,7 +25,7 @@ export interface ToastProps {
 }
 
 function Toast({ message, URL, error, remove }: ToastProps) {
-  const bgColor3 = useColorModeValue('#DEE6ED', '#324d68');
+  const bgColor3 = useColorModeValue('#DEE6ED', '#161616');
   const buttonBorder = useColorModeValue('gray.200', 'gray.100');
   const successIcon = useColorModeValue('#22bb33', '#75f083');
   const errorIcon = useColorModeValue('#CC334F', '#FF3358');

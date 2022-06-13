@@ -38,7 +38,7 @@ const FindPool = () => {
   const mode = useColorModeValue('light', 'dark');
   const infoBg = useColorModeValue('#EBF6FE', '#EAF6FF');
   const genBorder = useColorModeValue('#DEE6ED', '#324D68');
-  const bgColor = useColorModeValue('#F2F5F8', '#213345');
+  const bgColor = useColorModeValue('#F2F5F8', '#1d1d1d');
   const topIcons = useColorModeValue('#666666', '#DCE6EF');
   const textColorOne = useColorModeValue('#333333', '#F1F5F8');
   const manageColor = useColorModeValue('#319EF6', '#4CAFFF');
@@ -143,7 +143,7 @@ const FindPool = () => {
           <TimeIcon w={6} h={7} pt={1} color={topIcons} />
         </Flex>
         <Box
-          bg={mode === 'dark' ? '#213345' : '#F2F5F8'}
+          bg={mode === 'dark' ? '#1d1d1d' : '#F2F5F8'}
           borderRadius="md"
           p={4}
           mt={4}
@@ -179,7 +179,7 @@ const FindPool = () => {
             mt="14px"
             justifyContent="center"
             alignItems="center"
-            backgroundColor={mode === 'dark' ? '#213345' : '#F2F5F8'}
+            backgroundColor={mode === 'dark' ? '#1d1d1d' : '#F2F5F8'}
             border={mode === 'dark' ? '1px solid #324D68' : '1px solid #DEE6ED'}
             borderRadius="6px"
           >
@@ -195,7 +195,7 @@ const FindPool = () => {
             mt="14px"
             justifyContent="center"
             alignItems="center"
-            backgroundColor={mode === 'dark' ? '#213345' : '#F2F5F8'}
+            backgroundColor={mode === 'dark' ? '#1d1d1d' : '#F2F5F8'}
             border={mode === 'dark' ? '1px solid #324D68' : '1px solid #DEE6ED'}
             borderRadius="6px"
           >
@@ -211,7 +211,7 @@ const FindPool = () => {
             mt="14px"
             justifyContent="center"
             alignItems="center"
-            backgroundColor={mode === 'dark' ? '#213345' : '#F2F5F8'}
+            backgroundColor={mode === 'dark' ? '#1d1d1d' : '#F2F5F8'}
             border={mode === 'dark' ? '1px solid #324D68' : '1px solid #DEE6ED'}
             borderRadius="6px"
           >
@@ -316,7 +316,7 @@ const FindPool = () => {
             justifyContent="center"
             alignItems="center"
             flexDirection="column"
-            backgroundColor={mode === 'dark' ? '#213345' : '#F2F5F8'}
+            backgroundColor={mode === 'dark' ? '#1d1d1d' : '#F2F5F8'}
             border={mode === 'dark' ? '1px solid #324D68' : '1px solid #DEE6ED'}
             borderRadius="6px"
           >

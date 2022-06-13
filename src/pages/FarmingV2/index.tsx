@@ -143,16 +143,16 @@ export function Index() {
   const history = useHistory();
   const location = useLocation().pathname;
   const mode = useColorModeValue(LIGHT_THEME, DARK_THEME);
-  const filterBorderColor = useColorModeValue("#DEE5ED", "#324D68");
+  const filterBorderColor = useColorModeValue("#DEE5ED", "#161616");
   const useNotSelectedBackgroundColor = useColorModeValue("#FFFFFF","#999999")
-  const useSelectedBackgroundColor = useColorModeValue("#DEE5ED","#213345")
-  const useNotSelectedBorderColor = useColorModeValue("#008DFF","#324D68")
+  const useSelectedBackgroundColor = useColorModeValue("#DEE5ED","#1d1d1d")
+  const useNotSelectedBorderColor = useColorModeValue("#008DFF","#161616")
   const useSelectedBorderColor = useColorModeValue("#0760A8","#F2F5F8")
   const useNotSelectedTextColor = useColorModeValue("#333333","#0760A8")
   const useSelectedTextColor = useColorModeValue("#0760A8","#008DFF")
   
   const borderColor = useColorModeValue("#F2F5F8","#324D68")
-  const useSelectedColor = useColorModeValue("#333333","#213345")
+  const useSelectedColor = useColorModeValue("#333333","#1d1d1d")
   const placeholderTextColor = useColorModeValue("#333333", "#DCE5EF");
   const titleColor = useColorModeValue("#333333", "#ffffff");
   const [selected, setSelected] = useState(farmSection.LIQUIDITY);
@@ -2360,9 +2360,9 @@ if(location && location.includes("RGPv2")){
                       mode === LIGHT_THEME && selected === farmSection.LIQUIDITY
                         ? "#F2F5F8  !important"
                         : mode === DARK_THEME && selected === farmSection.LIQUIDITY
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === DARK_THEME && selected === farmSection.STAKING
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === LIGHT_THEME && selected === farmSection.STAKING
                         ? "#F2F5F8"
                         : "#F2F5F8 !important"
@@ -2553,7 +2553,7 @@ if(location && location.includes("RGPv2")){
                     py={4}
                     background={
                       mode === DARK_THEME
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === LIGHT_THEME
                         ? "#F2F5F8"
                         : "#F2F5F8 !important"
@@ -2633,9 +2633,9 @@ if(location && location.includes("RGPv2")){
                       mode === LIGHT_THEME && selected === farmSection.LIQUIDITY
                         ? "#F2F5F8  !important"
                         : mode === DARK_THEME && selected === farmSection.LIQUIDITY
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === DARK_THEME && selected === farmSection.STAKING
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === LIGHT_THEME && selected === farmSection.STAKING
                         ? "#F2F5F8"
                         : "#F2F5F8 !important"
@@ -2716,7 +2716,7 @@ if(location && location.includes("RGPv2")){
                     py={4}
                     background={
                       mode === DARK_THEME
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === LIGHT_THEME
                         ? "#F2F5F8"
                         : "#F2F5F8 !important"
@@ -2789,7 +2789,7 @@ if(location && location.includes("RGPv2")){
                     py={4}
                     background={
                       mode === DARK_THEME
-                        ? "#213345"
+                        ? "#1d1d1d"
                         : mode === LIGHT_THEME
                         ? "#F2F5F8"
                         : "#F2F5F8 !important"
@@ -2869,9 +2869,9 @@ if(location && location.includes("RGPv2")){
                      mode === LIGHT_THEME && selected === farmSection.LIQUIDITY
                        ? "#F2F5F8  !important"
                        : mode === DARK_THEME && selected === farmSection.LIQUIDITY
-                       ? "#213345"
+                       ? "#1d1d1d"
                        : mode === DARK_THEME && selected === farmSection.STAKING
-                       ? "#213345"
+                       ? "#1d1d1d"
                        : mode === LIGHT_THEME && selected === farmSection.STAKING
                        ? "#F2F5F8"
                        : "#F2F5F8 !important"

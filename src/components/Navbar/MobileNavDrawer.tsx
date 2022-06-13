@@ -30,9 +30,9 @@ import { useActiveWeb3React } from "../../utils/hooks/useActiveWeb3React";
 const MobileNavDrawer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [isOn, toggleIsOn] = useToggle();
-  const HamburgerIconBorderColor = useColorModeValue("#DEE5ED", "#213345");
+  const HamburgerIconBorderColor = useColorModeValue("#DEE5ED", "#f47904");
   const HamburgerIconColor = useColorModeValue("#333333", "#F1F5F8");
-  const SwapBgColor = useColorModeValue("#F2F5F8", "#213345");
+  const SwapBgColor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const closeButtonBorder = useColorModeValue("#666666", "#DCE5EF");
   const [isMobileDevice] = useMediaQuery("(max-width: 750px)");
 

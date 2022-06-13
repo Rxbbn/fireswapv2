@@ -25,7 +25,7 @@ function NetworkIndicator() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const mode = useColorModeValue("light", "dark");
   const { chainId, library, account } = useActiveWeb3React();
-  const buttonBgColor = useColorModeValue("#EBF6FE", "#213345");
+  const buttonBgColor = useColorModeValue("#EBF6FE", "#1d1d1d");
   const textColor = useColorModeValue("#319EF6", "#4CAFFF");
 
   const info = chainId ? CHAIN_INFO[chainId] : undefined;
@@ -113,7 +113,7 @@ function NetworkIndicator() {
             <Flex
               backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
               border={
-                mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"
+                mode === "dark" ? "1px solid #161616" : "1px solid #DEE6ED"
               }
               borderRadius='6px'
               py={4}
@@ -127,7 +127,7 @@ function NetworkIndicator() {
             <Flex
               backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
               border={
-                mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"
+                mode === "dark" ? "1px solid #161616" : "1px solid #DEE6ED"
               }
               borderRadius='6px'
               px={3}
@@ -153,7 +153,7 @@ function NetworkIndicator() {
             <Flex
               backgroundColor={mode === 'dark' ? '#999999' : '#FFFFFF'}
               border={
-                mode === 'dark' ? '1px solid #324D68' : '1px solid #DEE6ED'
+                mode === 'dark' ? '1px solid #161616' : '1px solid #DEE6ED'
               }
               borderRadius="6px"
               px={3}

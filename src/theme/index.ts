@@ -38,7 +38,7 @@ const overrides = {
             100: "#319EF6",
         },
         darkBg: {
-            100: "#213345",
+            100: "#929292",
         },
         lightBg: {
             100: "#EBF6FE",

@@ -51,7 +51,7 @@ const InputSelector = ({
   const maxColor = useColorModeValue("#319ef6", "#4CAFFF");
   const maxBgColor = useColorModeValue("#EBF6FE", "#EAF6FF");
   const tokenListTriggerColor = useColorModeValue("", "#DCE5EF");
-  const tokenListTrgiggerBgColor = useColorModeValue("", "#213345");
+  const tokenListTrgiggerBgColor = useColorModeValue("", "#1d1d1d");
 
   const inputRegex = RegExp(`^\\d*(?:\\\\[.])?\\d*$`);
   const enforcer = (nextUserInput: string) => {

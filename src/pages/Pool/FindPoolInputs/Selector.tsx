@@ -28,7 +28,7 @@ const Selector = ({
 }: SelectorProps) => {
   const tokenListTriggerColor = useColorModeValue('#333333', '#F1F5F8');
   const activeButtonColor = useColorModeValue('#319EF6', '#4CAFFF');
-  const genBorder = useColorModeValue('#DEE6ED', '#324D68');
+  const genBorder = useColorModeValue('#DEE6ED', '#161616');
   return (
     <>
       <Box

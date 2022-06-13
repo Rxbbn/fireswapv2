@@ -37,11 +37,11 @@ const NewToken:React.FC<IModal> = ({
   const addToken = useAddUserToken()
 
     const bgColor = useColorModeValue("#FFF", "#999999");
-    const boxShadow= useColorModeValue('#DEE6ED', '#324D68');
+    const boxShadow= useColorModeValue('#DEE6ED', '#161616');
     const lightTextColor = useColorModeValue("#666666", "#DCE6EF");
     const heavyTextColor = useColorModeValue("#333333", "#F1F5F8");
     const textColor = useColorModeValue("#319EF6","#4CAFFF")
-    const boxColor = useColorModeValue("#F2F5F8","#213345")
+    const boxColor = useColorModeValue("#F2F5F8","#1d1d1d")
     const dangerColor = useColorModeValue("#CC334F","#FF3358")
     const dangerBackground = useColorModeValue("#FFE5EA","#FFFFFF")
     const WarningLogo = useColorModeValue(LightWarning,Warning)

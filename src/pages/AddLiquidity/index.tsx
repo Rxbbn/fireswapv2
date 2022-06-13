@@ -65,8 +65,8 @@ export default function AddLiquidity({
   history,
 }: RouteComponentProps<{ currencyIdA?: string; currencyIdB?: string }>) {
   const infoBg = useColorModeValue("#EBF6FE", "#EAF6FF");
-  const genBorder = useColorModeValue("#DEE6ED", "#324D68");
-  const bgColor = useColorModeValue("#F2F5F8", "#213345");
+  const genBorder = useColorModeValue("#DEE6ED", "#161616");
+  const bgColor = useColorModeValue("#F2F5F8", "#1d1d1d");
   const topIcons = useColorModeValue("#666666", "#DCE6EF");
   const textColorOne = useColorModeValue("#333333", "#F1F5F8");
   const btnTextColor = useColorModeValue("#999999", "#7599BD");
