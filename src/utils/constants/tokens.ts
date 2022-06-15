@@ -2,7 +2,7 @@ import { serializeToken, Token } from '../helpers/token'
 import { SerializedToken } from './types'
 
 
-const MAINNET = 13381;
+const PHOENIX = 13381;
 const TESTNET = 13382;
 // const { MAINNET, TESTNET } = ChainId
 
@@ -16,7 +16,7 @@ interface SerializedTokenList {
 // UPDATE MAINNET TOKENS ON LAUNCH // TODO: remove this
 export const mainnetTokens = {
   wphx: new Token(
-    MAINNET,
+    PHOENIX,
     '0xcb186051DD62914B6dFc56c257823bfDA20DbEe6',
     18,
     'WPHX',
@@ -24,9 +24,9 @@ export const mainnetTokens = {
     'https://www.cryptophoenix.org/',
   ),
     // bnb here points to the wbnb contract. Wherever the currency BNB is required, conditional checks for the symbol 'BNB' can be used
-  phx: new Token(MAINNET, '0xcb186051DD62914B6dFc56c257823bfDA20DbEe6', 18, 'PHX', 'PHX', 'https://www.cryptophoenix.org/'), //update to mainnet
+  phx: new Token(PHOENIX, '0xcb186051DD62914B6dFc56c257823bfDA20DbEe6', 18, 'PHX', 'PHX', 'https://www.cryptophoenix.org/'), //update to mainnet
   rgp: new Token(
-    MAINNET,
+    PHOENIX,
     '0xfa262f303aa244f9cc66f312f0755d89c3793192',
     18,
     'RGP',
@@ -35,7 +35,7 @@ export const mainnetTokens = {
   ),
   
   busd: new Token(
-    MAINNET,
+    PHOENIX,
     '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     18,
     'BUSD',
@@ -43,7 +43,7 @@ export const mainnetTokens = {
     'https://www.paxos.com/busd/',
   ),
   axs: new Token(
-    MAINNET,
+    PHOENIX,
     '0x715d400f88c167884bbcc41c5fea407ed4d2f8a0',
     18,
     'AXS',

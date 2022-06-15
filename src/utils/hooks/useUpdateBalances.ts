@@ -63,8 +63,8 @@ export const useUpdateBalance = (searchQuery: string) => {
 
   const sortTokens = (List: any[]) => {
     const ListArray = [...List];
-    const filteredList = ListArray.filter((item) => item[2] !== "RGP");
-    const RGP = ListArray.filter((item) => item[2] === "RGP");
+    const filteredList = ListArray.filter((item) => item[2] !== "High");
+    const RGP = ListArray.filter((item) => item[2] === "High");
     const result = filteredList.sort(function (a, b) {
       return b[1] - a[1];
     });

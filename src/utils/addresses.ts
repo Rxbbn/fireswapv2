@@ -227,7 +227,7 @@ export const SMARTSWAPLP_TOKEN13ADDRESSES: { [key: string]: string } = {
 export const RGP: { [key: string]: string } = {
   "1": "0x",
   "3": "0x80278a0Cf536e568A76425B67Fb3931Dca21535c",
-  "13381": "0x80278a0Cf536e568A76425B67Fb3931Dca21535c",
+  "13381": "0x",
 
 };
 
@@ -235,7 +235,7 @@ export const RGP: { [key: string]: string } = {
 export const BUSD: { [key: string]: string } = {
   "1": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
   "3": "0xD848eD7f625165D7fFa9e3B3b0661d6074902FD4",
-  "13381": "0xD848eD7f625165D7fFa9e3B3b0661d6074902FD4",
+  "13381": "0x",
 
 };
 
@@ -243,14 +243,14 @@ export const BUSD: { [key: string]: string } = {
 export const USDT: { [key: string]: string } = {
   "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
   "3": "0x66F56B882364b2E36E837A1Acf964104cA19124F",
-  "13381": "0x66F56B882364b2E36E837A1Acf964104cA19124F",
+  "13381": "0x",
 
 };
 
 export const USDC: { [key: string]: string } = {
   "137": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
   "80001": "0xd22c5DbE967C2f9ac302729354fE32eB88b6B645",
-  "13381": "0xd22c5DbE967C2f9ac302729354fE32eB88b6B645",
+  "13381": "0x",
 };
 
 

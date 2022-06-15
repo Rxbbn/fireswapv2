@@ -1,5 +1,5 @@
 import {useMemo,useCallback, useEffect} from "react"
-import DEFAULT_TOKEN_LIST from "../../utils/constants/tokenList/fireswap-default.tokenlist.json"
+import DEFAULT_TOKEN_LIST from "../../utils/constants/tokenList/rigelprotocol-default.tokenList.json"
 import { TokenList } from '@uniswap/token-lists'
 import {WrappedTokenInfo} from "./WrappedTokenInfo"
 import { TagInfo } from "./WrappedTokenInfo"
@@ -124,8 +124,7 @@ function combineMaps(map1: TokenAddressMap,  map2: TokenAddressMap): TokenAddres
     80001: {...map1[80001], ...map2[80001] }, // matic testnet
     42261: {...map1[42261], ...map2[42261] }, // oasis testnet
     42262: {...map1[42262], ...map2[42262] }, // oasis mainnet
-    13381: {...map1[13381], ...map2[13381] }, // PHX mainnet
-    13382: {...map1[13382], ...map2[13382] }, // PHX testnet
+    13381: {...map1[13381], ...map2[13381] }, // oasis mainnet
   }
 }
 

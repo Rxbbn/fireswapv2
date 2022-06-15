@@ -65,6 +65,7 @@ import {
   useTokenBalance,
   useUpdateBalance,
 } from "../../../../utils/hooks/useUpdateBalances";
+import Web3 from "web3";
 
 export const calculateGas = async (
   percentage: number,
@@ -75,20 +76,20 @@ export const calculateGas = async (
   format2: string;
   format3: string;
 }> => {
-  const web3 = createAlchemyWeb3("http://66.70.176.12:8546");
+  const web3 = createAlchemyWeb3("https://rpc.phoenixplorer.com");
   const maxPriorityPerGas = await web3.eth.getMaxPriorityFeePerGas();
-  const GasPrice = (await library?.getGasPrice()).toString();
-
+  const GasPrice = (await web3.eth.getGasPrice()).toString();
+  const baseFeePerGas = await await web3.eth.getGasPrice();
   const baseFee = await web3.eth.getBlock("pending");
-  const baseFeeFormatted = web3.utils.hexToNumberString(baseFee.baseFeePerGas);
+  const baseFeeFormatted = web3.utils.numberToHex(baseFeePerGas);
   const maxPriorityPerGasFormatted =
     web3.utils.hexToNumberString(maxPriorityPerGas);
 
   const baseFeeThirtyPercent = new Percent(percentage.toString(), "100")
     .multiply(
-      chainId === 137
+      chainId === 13381
         ? maxPriorityPerGasFormatted
-        : chainId === 80001
+        : chainId === 13381
         ? maxPriorityPerGasFormatted
         : GasPrice
     )
@@ -465,9 +466,9 @@ const SendToken = () => {
               ? ethers.utils.parseUnits(format2, 9).toString()
               : null,
           gasPrice:
-            chainId === 137
+            chainId === 13381
               ? null
-              : chainId === 80001
+              : chainId === 13381
               ? null
               : ethers.utils.parseUnits(format3, 9).toString(),
         }
@@ -570,9 +571,9 @@ const SendToken = () => {
               ? ethers.utils.parseUnits(format2, 9).toString()
               : null,
           gasPrice:
-            chainId === 137
+            chainId === 133381
               ? null
-              : chainId === 80001
+              : chainId === 133381
               ? null
               : ethers.utils.parseUnits(format3, 9).toString(),
         }
@@ -692,20 +693,20 @@ const SendToken = () => {
         pathArray,
         account,
         dl,
-        chainId === 137 || chainId === 80001
+        chainId === 133381 || chainId === 80001
           ? {
               maxPriorityFeePerGas:
-                chainId === 137
+                chainId === 133381
                   ? ethers.utils.parseUnits(format1, 9).toString()
                   : null,
               maxFeePerGas:
-                chainId === 137
+                chainId === 133381
                   ? ethers.utils.parseUnits(format2, 9).toString()
                   : null,
             }
           : {
               gasPrice:
-                chainId === 137
+                chainId === 133381
                   ? null
                   : chainId === 80001
                   ? null
@@ -791,20 +792,12 @@ const SendToken = () => {
       const sendTransaction = await weth.deposit(
         {
           value: isExactIn ? parsedAmount : formatAmount,
-          maxPriorityFeePerGas:
-            chainId === 137
-              ? ethers.utils.parseUnits(format1, 9).toString()
-              : null,
-          maxFeePerGas:
-            chainId === 137
-              ? ethers.utils.parseUnits(format2, 9).toString()
-              : null,
           gasPrice:
-            chainId === 137
-              ? null
-              : chainId === 80001
-              ? null
-              : ethers.utils.parseUnits(format3, 9).toString(),
+          chainId === 13381
+            ? null
+            : chainId === 80001
+            ? null
+            : ethers.utils.parseUnits(format3, 9).toString(),
           }
         );
 
@@ -884,7 +877,7 @@ const SendToken = () => {
             }
           : {
               gasPrice:
-                chainId === 137
+                chainId === 13381
                   ? null
                   : chainId === 80001
                   ? null
