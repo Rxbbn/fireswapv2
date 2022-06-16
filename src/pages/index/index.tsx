@@ -7,22 +7,17 @@ import DarkLogo from '../../assets/logo/fireswaplight.png';
 import External from '../../assets/external.svg';
 import SmartSwap from '../../assets/smartswap-dark.svg';
 import Swap from '../../assets/swap1.png';
-import Liquidity from '../../assets/liquidity.svg';
+import Liquidity from '../../assets/lp1.png';
 import YieldFarm from '../../assets/yieldfarm.svg';
 import Speed from '../../assets/speed_2.gif';
 import Security from '../../assets/security_2.gif';
 import Fees from '../../assets/fees.gif';
 import Github from '../../assets/Vectorgithub.svg';
-import Linkedin from '../../assets/Vectorlinkedin.svg';
 import Twitter from '../../assets/Vectortwitter.svg';
 import Discord from '../../assets/Vectordiscord.svg';
 import Telegram from '../../assets/Vectortelegram.svg';
 import Medium from '../../assets/Vectormedium.svg';
-import Polygon from '../../assets/Platformpolygon.svg';
 import Close from '../../assets/closeSquare.svg';
-import Ethereum from '../../assets/Groupethereum.svg';
-import Oasis from '../../assets/Oasis.svg';
-import Binance from '../../assets/Groupbinance.svg';
 import { Link } from 'react-router-dom';
 import "./landingpage.css"
 
@@ -250,7 +245,7 @@ setMinNav3(!minNav3)
          </div>
          <div className="section__3__top">
             <div>
-            <img src={YieldFarm} alt="" />
+            
            </div>
            <div className="section__3__text">
              <h3>Yield Farming</h3>
