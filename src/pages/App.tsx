@@ -37,7 +37,7 @@ import Faq from "./SmartBid/Faq";
   // useEffect(()=>{
   //   ReactGA.pageview(window.location.pathname + window.location.search)
   // })
-  gtag('config', "G-JRRW1SDM6G" , {
+  gtag('config', "G-G7Y8EVY1VJ" , {
     'page_title' : window.location.search,
     'page_path': window.location.pathname,
     'send_page_view' : true
