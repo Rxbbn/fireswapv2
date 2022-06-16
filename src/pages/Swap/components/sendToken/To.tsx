@@ -30,6 +30,7 @@ const To: React.FC<ToProps> = ({
   onHover
 }) => {
   const borderColor = useColorModeValue('#DEE5ED', '#161616');
+  const backgroundColor = useColorModeValue('#DEE5ED', '#161616');
   const [tokenModal, setTokenModal] = useState(false);
   const handleInputSelect = useCallback(
     (outputCurrency) => {
@@ -51,6 +52,7 @@ const To: React.FC<ToProps> = ({
         borderRadius="6px"
         border={display ? "0" : "1px"}
         borderColor={borderColor}
+        backgroundColor={backgroundColor}
         className='SelectToken'
         width="100%"
       >

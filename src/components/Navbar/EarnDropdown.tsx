@@ -12,7 +12,7 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useActiveWeb3React } from "../../utils/hooks/useActiveWeb3React";
 import { SupportedChainId } from "../../constants/chains";
 export const Nav = ({ to, label, active }: { to: string; label: string, active?:boolean }) => {
-    const mobileNavColor = useColorModeValue("#FFFFFF", "#999999");
+    const mobileNavColor = useColorModeValue("#FFFFFF", "#191919");
     return (
   
     <NavLink

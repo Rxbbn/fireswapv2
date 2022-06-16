@@ -30,6 +30,7 @@ const From: React.FC<FromProps> = ({
 
 
   const borderColor = useColorModeValue('#DEE5ED', '#161616');
+  const backgroundColor = useColorModeValue('#DEE5ED', '#161616');
   const [tokenModal, setTokenModal] = useState(false);
   const handleInputSelect = useCallback(
     (inputCurrency) => {
@@ -49,6 +50,7 @@ const From: React.FC<FromProps> = ({
         borderRadius="6px"
         border="1px"
         borderColor={borderColor}
+        backgroundColor={backgroundColor}
         className='FromToken'
       >
         <InputSelector

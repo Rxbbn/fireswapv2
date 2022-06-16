@@ -25,8 +25,8 @@ function NetworkIndicator() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const mode = useColorModeValue("light", "dark");
   const { chainId, library, account } = useActiveWeb3React();
-  const buttonBgColor = useColorModeValue("#EBF6FE", "#1d1d1d");
-  const textColor = useColorModeValue("#319EF6", "#4CAFFF");
+  const buttonBgColor = useColorModeValue("#EBF6FE", "#191919");
+  const textColor = useColorModeValue("#319EF6", "#FFFFFF");
 
   const info = chainId ? CHAIN_INFO[chainId] : undefined;
   useEffect(()=>{
@@ -110,48 +110,9 @@ function NetworkIndicator() {
               </Text>
             </Flex>
             
+            
             <Flex
-              backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
-              border={
-                mode === "dark" ? "1px solid #161616" : "1px solid #DEE6ED"
-              }
-              borderRadius='6px'
-              py={4}
-              px={3}
-              mb={3}
-              cursor='pointer'
-              onClick={() => changeNetwork('0x38')}
-            >
-              
-            </Flex>
-            <Flex
-              backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
-              border={
-                mode === "dark" ? "1px solid #161616" : "1px solid #DEE6ED"
-              }
-              borderRadius='6px'
-              px={3}
-              py={4}
-              mb={4}
-              cursor='pointer'
-              onClick={() => changeNetwork('0x89')}
-              background={!wallet ? '#999999' : ""}
-              opacity={!wallet ? 0.4 : ""}
-            >
-              <Tooltip
-                  hasArrow
-                  label="Not Supported by this Wallet."
-                  aria-label="A tooltip"
-                  placement="top"
-                  isDisabled={wallet}
-              >
-                <Flex>
-                 
-                </Flex>
-              </Tooltip>
-            </Flex>
-            <Flex
-              backgroundColor={mode === 'dark' ? '#999999' : '#FFFFFF'}
+              backgroundColor={mode === 'dark' ? '#191919' : '#FFFFFF'}
               border={
                 mode === 'dark' ? '1px solid #161616' : '1px solid #DEE6ED'
               }
@@ -160,7 +121,7 @@ function NetworkIndicator() {
               py={4}
               mb={4}
               cursor="pointer"
-              onClick={() => changeNetwork('0xa516')}
+              onClick={() => changeNetwork('0x3445')}
               background={!wallet ? '#999999' :""}
               opacity={!wallet ? 0.4 : ""}
             >

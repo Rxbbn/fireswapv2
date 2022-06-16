@@ -28,7 +28,7 @@ const Index = () => {
   const [loading, setLoading] = useState(false);
   const [welcomeModal, setWelcomeModal] = useState(false); //false
   const [run, setRun] = useState(false);
-  const bgColor = useColorModeValue("#319EF6", "#4CAFFF");
+  const bgColor = useColorModeValue("#319EF6", "#191919");
   const dispatch = useDispatch();
   useUpdateUserGasPreference();
 
@@ -95,7 +95,7 @@ const Index = () => {
       window.localStorage.setItem("firstLiquidtyVisit", "2");
           setWelcomeModal((state) => !state)
         }}
-        textHeader={"Welcome to RigelProtocol SmartSwap"}
+        textHeader={"Welcome to Fireswap"}
         welcomeText='With liquidity, you have the option of earning more by depositing tokens to join liquidity pools and receive LP tokens.'
       />
       <Flex
@@ -115,15 +115,15 @@ const Index = () => {
           <Box
             mt={5}
             p={5}
-            backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
-            border={mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"}
+            backgroundColor={mode === "dark" ? "#191919" : "#FFFFFF"}
+            border={mode === "dark" ? "1px solid #f47904" : "1px solid #f47904"}
             borderRadius='6px'
           >
             <Flex justifyContent='left' mb={4} flexDirection='column'>
               <Flex justifyContent='space-between'>
                 <Text
                   fontSize='16px'
-                  color={mode === "dark" ? "#F1F5F8" : "rgba(51, 51, 51, 1)"}
+                  color={mode === "dark" ? "#F1F5F8" : "#FFFFFF"}
                   className='Liquidity'
                 >
                   Liquidity
@@ -158,16 +158,16 @@ const Index = () => {
                   className='AddLiquidity'
                   h='50px'
                   my={4}
-                  border='none'
                   fontSize='lg'
                   cursor='pointer'
                   boxShadow='0px 1px 7px rgba(41, 45, 50, 0.08)'
                   lineHeight='24px'
                   color='#FFFFFF'
-                  bg='#319EF6'
+                  bg='#191919'
+                  border="1px solid #f47904"
                   borderRadius='6px'
-                  _hover={{ outline: "none", background: "#319EF6" }}
-                  _active={{ outline: "none", background: "#319EF6" }}
+                  _hover={{ outline: "none", background: "#191919" }}
+                  _active={{ outline: "none", background: "#191919" }}
                   onClick={()=>GClickedAddLiquidity()}
                 >
                   Add Liquidity
@@ -182,13 +182,13 @@ const Index = () => {
                   _active={{ bgColor: "transparent" }}
                   h='50px'
                   my={4}
-                  color='#319EF6'
+                  color='#FFFFFF'
                   fontSize='lg'
                   cursor='pointer'
                   lineHeight='24px'
                   borderRadius='6px'
                   bg='transparent'
-                  border=' 2px solid #319EF6'
+                  border=' 1px solid #f47904'
                   className='CreatePair'
                   onClick={() => GClickedAddNewLiquidity()}
                 >
@@ -210,8 +210,8 @@ const Index = () => {
             </Flex>
           </Box>
           <Box
-            backgroundColor={mode === "dark" ? "#999999" : "#FFFFFF"}
-            border={mode === "dark" ? "1px solid #324D68" : "1px solid #DEE6ED"}
+            backgroundColor={mode === "dark" ? "#191919" : "#FFFFFF"}
+            border={mode === "dark" ? "1px solid #f47904" : "1px solid #f47904"}
             borderRadius='6px'
             my={4}
             w='100%'

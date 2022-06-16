@@ -15,13 +15,13 @@ import DappsDropdown from "./DappsDropdown";
 import WalletConnection from "./WalletConnection";
 import SwapDropdown from "./SwapDropdown";
 import LightLogo from "./../../assets/logo/fireswap.png";
-import DarkLogo from "./../../assets/logo/fireswap.png";
+import DarkLogo from "./../../assets/logo/fireswaplight.png";
 import MobileNavDrawer from "./MobileNavDrawer";
 import NetworkConnector from "../NetworkConnector";
 import EarnDropdown from "./EarnDropdown";
 
 export const Nav = ({ to, label, active }: { to: string; label: string, active?:boolean }) => {
-  const mobileNavColor = useColorModeValue("#FFFFFF", "#999999");
+  const mobileNavColor = useColorModeValue("#FFFFFF", "#191919");
   return (
 
   <NavLink
@@ -40,7 +40,7 @@ const Index = () => {
   const [isMobileDevice] = useMediaQuery("(max-width: 750px)");
   const location = useLocation().pathname;
   const Logo = useColorModeValue(LightLogo, DarkLogo);
-  const mobileNavColor = useColorModeValue("#FFFFFF", "#999999");
+  const mobileNavColor = useColorModeValue("#FFFFFF", "#191919");
   const mobileNavBorderColor = useColorModeValue("#999999", "#f47904");
 
   return (
@@ -91,7 +91,7 @@ const Index = () => {
                     <Img src={Logo} />{" "}
                   </NavLink>
                 </Box>
-                <DappsDropdown />
+                
 
                 <Flex
                   mr="4px"

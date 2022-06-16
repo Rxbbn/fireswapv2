@@ -162,7 +162,7 @@ const SendToken = () => {
   const color = useColorModeValue("#999999", "#7599BD");
   const lightmode = useColorModeValue(true, false);
   const switchBgcolor = useColorModeValue("#F2F5F8", "#1d1d1d");
-  const buttonBgcolor = useColorModeValue("#319EF6", "#4CAFFF");
+  const buttonBgcolor = useColorModeValue("#319EF6", "#1d1d1d");
 
   const [showModal, setShowModal] = useState(false);
   const [currentToPrice, setCurrentToPrice] = useState("");
@@ -1005,7 +1005,7 @@ const SendToken = () => {
       setIsLoadingValue(false);
     }
   }, [formattedAmounts[Field.OUTPUT]]);
-
+  const backgroundColor = useColorModeValue('#DEE5ED', '#373F46');
   return (
     <div className='Swap'>
       <NewToken
@@ -1016,6 +1016,7 @@ const SendToken = () => {
       <Box
         border='1px'
         borderColor={borderColor}
+        backgroundColor = {backgroundColor}
         borderRadius='6px'
         h='420px'
         pl={3}

@@ -42,10 +42,10 @@ type : "TOKENS"
 }
 ]
 
-    const bgColor = useColorModeValue("#FFF", "#999999");
-    const boxShadow= useColorModeValue('#DEE6ED', '#161616');
+    const bgColor = useColorModeValue("#FFF", "#191919");
+    const boxShadow= useColorModeValue('#DEE6ED', '#707070');
     const heavyTextColor = useColorModeValue("#333333", "#F1F5F8");
-    const boxColor = useColorModeValue("#F2F5F8","#1d1d1d")
+    const boxColor = useColorModeValue("#F2F5F8","#707070")
     const [selectedText,setSelectedText] = useState(0)
     const [openImportToken,setOpenImportToken] = useState(false)
     const [listURL,setListURL] = useState("")

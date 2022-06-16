@@ -51,7 +51,7 @@ const ConfirmModal: React.FC<IModal> = ({
   priceBperA,
   priceAperB,
 }) => {
-  const bgColor = useColorModeValue('#F2F5F8', '#1d1d1d');
+  const bgColor = useColorModeValue('#F2F5F8', '#191919');
   const lightTextColor = useColorModeValue('#666', '#DCE6EF');
   const heavyTextColor = useColorModeValue('#333', '#F1F5F8');
   const heavyTextColor2 = useColorModeValue('#333', '#333');

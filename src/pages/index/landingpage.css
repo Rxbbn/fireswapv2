@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
 
 :root {
@@ -24,6 +27,7 @@
 }
 body {
   overflow-x: hidden;
+  background-image: url('../../assets/fs-bg2.jpg') !important;
 }
 ul {
   list-style-type: none;
@@ -59,6 +63,10 @@ h5 {
 li {
   font-family: DMSans, sans-serif !important;
   color: var(--text-color);
+}
+
+.border-radius {
+  border-radius: 1rem;
 }
 .wrapper {
   width: 95%;
@@ -122,13 +130,13 @@ li {
 }
 .button {
   background: linear-gradient(
-    90deg,
-    #2691c1 0%,
-    #045ca6 42.71%,
-    #055da6 60.42%,
-    #238cbe 100%
+    160deg,
+    #ff9b04 0%,
+    #e69500 42.71%,
+    #dd6300 60.42%,
+    #df4a05 100%
   );
-  box-shadow: 0px 1px 5px rgba(51, 51, 153, 0.1);
+  box-shadow: 0px 1px 5px rgba(219, 143, 0, 0.1);
   border: 0;
   color: white;
   text-align: center;

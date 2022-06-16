@@ -19,7 +19,7 @@ import { setCloseModal, TrxState } from '../../../state/application/reducer';
 
 
 const TransactionStateModal: React.FC = () => {
-    const bgColour = useColorModeValue("#FFFFFF", "#999999");
+    const bgColour = useColorModeValue("#FFFFFF", "#191919");
     const textColour = useColorModeValue("#333333", "#F1F5F8");
     const smallTxtColour = useColorModeValue("#999999", "#DCE5EF");
     const closeBtnColour = useColorModeValue("#666666", "#DCE5EF");

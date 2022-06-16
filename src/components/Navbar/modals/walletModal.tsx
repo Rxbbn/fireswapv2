@@ -40,9 +40,9 @@ const WalletModal: React.FC<IModal> = ({
   accounts,
   setDisplayWallet
 }) => {
-  const bgColor = useColorModeValue("#FFF", "#999999");
+  const bgColor = useColorModeValue("#FFF", "#161616");
   const lightTextColor = useColorModeValue("#666666", "#DCE6EF");
-  const borderColor = useColorModeValue("#DEE6ED", "#161616");
+  const borderColor = useColorModeValue("#DEE6ED", "#f47904");
   const dashedColor = useColorModeValue("#DEE6ED", "#4A739B");
   const activeButtonColor = useColorModeValue("#319EF6", "#4CAFFF");
   const buttonColor = useColorModeValue("#666666", "#7599BD");

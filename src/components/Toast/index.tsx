@@ -30,7 +30,7 @@ function Toast({ message, URL, error, remove }: ToastProps) {
   const successIcon = useColorModeValue('#22bb33', '#75f083');
   const errorIcon = useColorModeValue('#CC334F', '#FF3358');
   const textColor = useColorModeValue('black', '#fff');
-  const bg = useColorModeValue('#fff', '#999999');
+  const bg = useColorModeValue('#fff', '#191919');
   const shadow = useColorModeValue(
     '0px 1px 7px rgba(41, 45, 50, 0.08)',
     '0px 2px 4px -2px rgba(178, 193, 230, 0.12), 0px 4px 4px -2px rgba(178, 193, 230, 0.08)'

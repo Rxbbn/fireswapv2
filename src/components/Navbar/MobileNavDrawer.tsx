@@ -132,7 +132,7 @@ const MobileNavDrawer = () => {
                       <Nav
                         label="auto-period"
                         to={
-                          chainId === SupportedChainId.BINANCETEST ? "/auto-period" : "#"
+                          chainId === SupportedChainId.PHOENIX ? "/auto-period" : "#"
                         }
                       />
                     </Text>
@@ -144,7 +144,7 @@ const MobileNavDrawer = () => {
                       <Nav
                         label="Set Price"
                         to={
-                          chainId === SupportedChainId.BINANCETEST ? "/set-price" : "#"
+                          chainId === SupportedChainId.PHOENIX ? "/set-price" : "#"
                         }
                       />
                     </Text>
@@ -153,37 +153,9 @@ const MobileNavDrawer = () => {
                 <Flex ml={6} mb={3} onClick={onClose}>
                   <Nav label="Liquidity" to="/pool" active={location === '/add' || location === '/remove' ? true : false}/>
                 </Flex>
-                <Flex ml={6} mb={3} onClick={onClose}>
-                  <Nav label="Farming" to="/farming-v2" />
-                </Flex>
-                <Flex ml={6} mb={3} onClick={onClose}>
-                  <Nav label="NFT" to="/nft" />
-                </Flex>
-                <Flex ml={6} mb={3}>
-                  <Link href="#" isExternal onClick={onClose}>
-                    Analytics <ExternalLinkIcon mx="2px" />
-                  </Link>
-                </Flex>
-                <Text ml={6} color="#999999" mt={5} fontSize="12px" mb={2}>
-                  DAPPS
-                </Text>
+               
                 <Flex mb={3} alignItems="center" ml={6} onClick={onClose}>
                   <Nav label="SmartSwap" to="/swap" />
-                </Flex>
-                <Flex ml={6} mb={3}>
-                  <Link href="https://gift.rigelprotocol.com/" isExternal>
-                    <Text>GiftDApp</Text>
-                  </Link>
-                </Flex>
-                <Flex ml={6} mb={3}>
-                  <Text>Smart Bid</Text>
-                </Flex>
-                <Flex ml={6} mb={3}>
-                  <Text>Leverage Exchange</Text>
-                </Flex>
-
-                <Flex ml={6} mb={3}>
-                  <Text>LaunchPad</Text>
                 </Flex>
               </Flex>
             </Flex>

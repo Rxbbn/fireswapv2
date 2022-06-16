@@ -25,7 +25,7 @@ export default function WalletConnection() {
   const { account, error, connector } = useActiveWeb3React();
   const bg = useColorModeValue('#FFFFFF', '#999999');
   const bgColor = useColorModeValue('lightBg.100', 'darkBg.100');
-  const bgColor2 = useColorModeValue('lightBg.200', 'darkBg.100');
+  const bgColor2 = useColorModeValue('lightBg.200', '#191919');
   const bgColor3 = useColorModeValue('#DEE6ED', '#4A739B');
   const shadow = useColorModeValue(
     '0px 1px 7px -2px rgba(24, 39, 75, 0.06), 0px 2px 2px rgba(24, 39, 75, 0.06)',

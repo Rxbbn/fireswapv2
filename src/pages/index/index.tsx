@@ -3,10 +3,10 @@
 import { Box, Flex } from '@chakra-ui/layout';
 import { Text,Img } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react';
-import DarkLogo from '../../assets/logo/LogoRGPImage.svg';
+import DarkLogo from '../../assets/logo/fireswaplight.png';
 import External from '../../assets/external.svg';
 import SmartSwap from '../../assets/smartswap-dark.svg';
-import Swap from '../../assets/swap.svg';
+import Swap from '../../assets/swap1.png';
 import Liquidity from '../../assets/liquidity.svg';
 import YieldFarm from '../../assets/yieldfarm.svg';
 import Speed from '../../assets/speed_2.gif';
@@ -33,7 +33,7 @@ const Index = () => {
   const [navBar,setNavBar] = useState(false)
 
   return (
-    <div style={{background:"#000C15"}} onClick={(e)=>{
+    <div style={{background:"#191919"}} onClick={(e)=>{
       if(e.target.className !=="subList" && e.target.className !=="downArrow" && e.target.className !=="list"){
       setMinNav1(false)
       setMinNav2(false)
@@ -78,30 +78,19 @@ const Index = () => {
              <div className="multi_navbar_ul_div">
               <div>
                <li className='list'>
-                <a href="https://rigelprotocol.com/about.html" target="_blank"
+                <a href="https://cryptophoenix.org" target="_blank"
                 >
                  <div className="multi_navbar_ul_div_item">
                    <p className="multi_nav_head">About us</p>
                   <div>
-                   <p>Learn more about rigelProtocol</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-                <a href="https://rigelprotocol.com/career.html" target="_blank"
-                >
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">Career</p>
-                  <div>
-                   <p>See Available positions</p>
+                   <p>Learn more about Phoenix</p>
                   </div>
                  </div>
                 </a>
                </li>
                <li className='list'>
                 <a
-                 href="https://rigelprotocol.com/press.html" target="_blank"
+                 href="https://medium.com/@phoenixblockchain" target="_blank"
                 >
                  <div className="multi_navbar_ul_div_item">
                    <p className="multi_nav_head">Press resources</p>
@@ -133,88 +122,24 @@ setMinNav2(!minNav2)
                  href="#"
                 >
                  <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">SmartSwap</p>
+                   <p className="multi_nav_head">FireSwap</p>
                   <div>
                    <p>Swap tokens directly</p>
                   </div>
                  </div>
                 </a>
                </li>
-               <li className='list'>
-                <a
-                 href="https://gift.rigelprotocol.com/"
-                 target="blank"
-                >
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">Gift Dapp</p>
-                  <div>
-                   <p>Gifts token in a fun way.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-               <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                {/* <a
-                href="smartbid.html"
-                > */}
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">SmartBid</p>
-                  <div>
-                   <p>Bid on tokens.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-               <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                {/* <a
-                href="leverage-exchange.html"
-                > */}
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">Leverage Exchange</p>
-                  <div>
-                   <p>Trade using decentralized tokens.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-                {/* <a
-                 href="launchpad.html"
-                > */}
-                   <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">LanchPad</p>
-                  <div>
-                   <p>Join Project hosted on rigelProtocol</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-            
+
               </div>
              </div>
             </ul>}
             
            </li>
            <li>
-            <a href="https://rigelprotocol.com/events.html">Events</a>
+            <a href="https://t.me/crypto_phoenix_official">Community</a>
            </li>
            <li> 
-             <a href="https://medium.com/rigelprotocol" target="_blank">
+             <a href="https://medium.com/@phoenixblockchain" target="_blank">
              <Flex>Blog <img src={External} style={{marginLeft:"6px"}} />
              </Flex>
                </a>
@@ -245,77 +170,14 @@ setMinNav3(!minNav3)
                  href="#"
                 >
                  <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">SmartSwap</p>
+                   <p className="multi_nav_head">FireSwap</p>
                   <div>
                    <p>Swap tokens directly</p>
                   </div>
                  </div>
                 </a>
                </li>
-               <li className='list'>
-                <a
-                 href="https://gift.rigelprotocol.com/"
-                 target="blank"
-                >
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">Gift Dapp</p>
-                  <div>
-                   <p>Gifts token in a fun way.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-               <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                {/* <a
-                href="smartbid.html"
-                > */}
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">SmartBid</p>
-                  <div>
-                   <p>Bid on tokens.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-               <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                {/* <a
-                href="leverage-exchange.html"
-                > */}
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">Leverage Exchange</p>
-                  <div>
-                   <p>Trade using decentralized tokens.</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
-               <li className='list'>
-                {/* <a
-                 href="launchpad.html"
-                > */}
-                   <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#" style={{cursor:"not-allowed"}}>
-                 <div className="multi_navbar_ul_div_item">
-                   <p className="multi_nav_head">LaunchPad</p>
-                  <div>
-                   <p>Join Project hosted on rigelProtocol</p>
-                  </div>
-                 </div>
-                </a>
-               </li>
+              
             
               </div>
              </div>
@@ -333,9 +195,11 @@ setMinNav3(!minNav3)
 
        
        <section className="section__1">
+        
 <div className="section__1__center">
-  <h1>a SMART way to Swap</h1>
-  <p>Direct cross chain swapping without order books, deposits or coin wrapping. High Yield Annual Interest for RGP token holders and Liquidity Providers.</p>
+
+  <h1> The First DEX on Phoenix Blockchain</h1>
+  <p>Direct cross chain swapping without order books, deposits or coin wrapping.</p>
   <Flex justifyContent="center">
      <Link to="/swap">
  <button className="button">
@@ -346,24 +210,18 @@ setMinNav3(!minNav3)
 
 </div>
        </section>
-
-       
-       <section className="section__2">
-         <Img src={SmartSwap} /> 
-       </section>
-        
         <section className="section__3">
           <div className="section__3__heading">
-    <h2>Swap.Liquidity.Farming</h2>
-          <p>You have a wide range of functions to perfom with the SmartSwap, either swapping out tokens, providing liquidity or yield farming.</p>
+    <h2>Swap . Liquidity . Farming</h2>
+          <p>You have a wide range of functions to perfom with the FireSwap, either swapping out tokens, providing liquidity or yield farming (coming soon).</p>
           </div>
          <div className="section__3__top">
           <div>
-            <img src={Swap} alt="" />
+            <img src={Swap} alt="" className="border-radius" />
                     </div>
            <div className="section__3__text">
              <h3>Swap</h3>
-             <p>To get leverage tokens to trade with, you need to have deposited a certain amount of tokens. So to get started, you go to the <Link to="/swap" style={{color:"#9BD0FD",textDecoration:"underline"}}>SmartSwap Dapp</Link>  and deposit tokens in the desired token you would like to trade with.</p>
+             <p>To get leverage tokens to trade with, you need to have deposited a certain amount of tokens. So to get started, you go to the <Link to="/swap" style={{color:"#9BD0FD",textDecoration:"underline"}}>FireSwap Dapp</Link>  and deposit tokens in the desired token you would like to trade with.</p>
              <div className="section__3__top__button">
               <Link to="/swap">
                <button className="button">
@@ -396,11 +254,11 @@ setMinNav3(!minNav3)
            </div>
            <div className="section__3__text">
              <h3>Yield Farming</h3>
-             <p>When you trade with the leverage you earn more back. From your earning your leveraged tokens are automatically removed with interest and you get to keep more earnings.</p>
+             <p>Coming Soon</p>
              <div className="section__3__top__button">
-               <Link to="/farming-V2">
+               <Link to="#">
                      <button className="button">
-                 Launch DApp <span>&#8594;</span>
+                 Coming Soon <span>&#8594;</span>
                </button>
                </Link>
            
@@ -412,23 +270,10 @@ setMinNav3(!minNav3)
      
      <section className="section__4">
        <div className="section__4__container">
-         <div className="section__4__img__container">
-        <div>
-        <img src={Ethereum} alt="Ethereum" />
-        </div>
-        <div>
-        <img src={Binance} alt="Binance" />
-        </div>
-        <div>
-        <img src={Polygon} alt="Polygon" />
-        </div>
-        <div>
-        <img src={Oasis} alt="Oasis" />
-        </div>
-       </div>
+         
        <div className="section__4__text">
          <h2>Built across multiple platforms</h2>
-         <p>Built on Ethereum, Binance SmartChain, & Polygon to give you the freedom to experience more inclusivity and an extra layer of security when using our platforms.</p>
+         <p>Built on Phoenix to give you the freedom from high fees and long transaction times!</p>
        </div> 
       </div>
        <div className="section__4__grid">
@@ -448,7 +293,7 @@ setMinNav3(!minNav3)
            </div>
            <Box mt="4">
               <h4>Low transaction fees</h4>
-           <p>We offer you the best transaction experience with the lowest fees available.</p>
+           <p>We offer you the best transaction experience with the lowest fees available (1 gwei).</p>
            </Box>
           
          </div>
@@ -466,42 +311,7 @@ setMinNav3(!minNav3)
        </div>
        
      </section>
-     <section className='section__5'>
-       <h4>SmartSwap BluePrints</h4>
-       <div className='section__5__link'>
-         <div>
-           <h6>Swap</h6>
-           <p><Link to="/swap">Straight Swap</Link></p>
-           <p><Link to="/auto-period">Auto Time</Link></p>
-           <p><Link to="/set-price">Set Price</Link></p>
-         </div>
-         <div>
-           <h6>Liquidity</h6>
-           <p><Link to="/add">Add Liquidity</Link></p>
-           <p><Link to="/pool">Create Liquidity Pair</Link></p>
-           <p><Link to="/find">Import Liquidity Pool</Link></p>
-         </div>
-         <div>
-           <h6>Farming</h6>
-           <p><Link to="/farming-V2">Liquidity Pools</Link></p>
-           <p><Link to="/farming-V2/staking-RGP">Staking</Link></p>
-           <p>Other Farms</p>
-           <p><a href="" target="_blank">List your Project</a></p>
-         </div>
-         <div>
-           <h6>Legal</h6>
-           <p><a href="https://rigelprotocol.com/design-compliance.html" target="_blank">Design Compliance</a></p>
-           <p><a href="https://rigelprotocol.com/privacy-policy.html" target="_blank">Privacy Policy</a></p>
-           <p><a href="https://rigelprotocol.com/terms-and-condition.html" target="_blank">Terms & Conditions</a></p>
-         </div>
-         <div>
-           <h6>Contact</h6>
-           <p><a href="https://twitter.com/rigelprotocol" target="_blank">Twitter</a></p>
-           <p> <a href="https://www.t.me/rigelprotocol" target="_blank">Telegram</a></p>
-           <p><a href="https://medium.com/rigelprotocol" target="_blank">Medium</a></p>
-         </div>
-       </div>
-     </section>
+     
      </main>
      <footer className='mainFooter'>
       <div className="footer__top">
@@ -519,23 +329,20 @@ setMinNav3(!minNav3)
           <img src="./assets/images/Darklogo.svg" alt="" />
           <p>DApps with the best experience and low fees.</p>
           <Box className="social__media__icon" mt="4">
-              <a  href="https://www.linkedin.com/company/rigelprotocol"
-              target="_blank">
-                 <img src={Linkedin} alt="" />
-              </a>
-            <a href="https://www.t.me/rigelprotocol" target="_blank">
+              
+            <a href="https://www.t.me/crypto_phoenix_official" target="_blank">
               <img src={Telegram} alt="" />
             </a>
-            <a href="https://discord.gg/j86NH95GDD" target="_blank">
+            <a href="https://discord.gg/8W8BJEEwY7" target="_blank">
               <img src={Discord} alt="" />
             </a>
-            <a href="https://twitter.com/rigelprotocol" target="_blank">
+            <a href="https://twitter.com/phoenixblockchn" target="_blank">
               <img src={Twitter} alt="" />
             </a>
-            <a href="https://medium.com/rigelprotocol" target="_blank">
+            <a href="https://medium.com/@phoenixblockchain" target="_blank">
               <img src={Medium} alt="" />
             </a>
-            <a href="https://github.com/rigelprotocol" target="_blank">
+            <a href="https://github.com/Phoenix-Phire" target="_blank">
               <img src={Github} alt="" />
             </a>
           </Box>
@@ -543,54 +350,9 @@ setMinNav3(!minNav3)
         <div className="footer__container">
            <div className="footer__li__link">
 <div>
-<p>Products</p>
-<ul>
- <li><a href="https://smartswap.rigelprotocol.com/" target="_blank">SmartSwap</a></li>
- <li><a href="https://gift.rigelprotocol.com/" target="_blank">Gift DApp</a> </li>
- <li> <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#"
-  >Leverage Exchange
-</a></li>
- <li> <a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#"
-  >SmartBid</a></li>
- <li><a
-  data-toggle="tooltip"
-  data-placement="bottom"
-  title="coming soon"
-  href="#">LaunchPad</a></li>
-</ul>
+
 </div>
-<div>
-<p>Company</p>
-<ul>
- <li><a href="https://rigelprotocol.com/about.html" target="_blank">About us</a> </li>
- <li><a className="inner-page-link" href="https://rigelprotocol.com/#roadMaps" target="_blank">Road Map</a></li>
- <li><a className="inner-page-link" href="https://rigelprotocol.com/#partners" target="_blank">Partners</a></li>
- <li><a href="https://rigelprotocol.com/press.html" target="_blank">Press Resources</a></li>
-</ul>
-</div>
-<div>
-<p>Support</p>
-<ul>
- <li><a href="https://rigelprotocol.com/faqs.html" target="_blank">FAQs</a> </li>
- <li><a href="https://medium.com/rigelprotocol" target="_blank">Blog</a></li>
-</ul>
-</div>
-<div>
-<p>Legal</p>
-<ul>
- <li><a href="https://rigelprotocol.com/design-compliance.html" target="_blank">Design Compliance</a> </li>
- <li><a href="https://rigelprotocol.com/privacy-policy.html" target="_blank">Private Policy</a> </li>
- <li><a href="https://rigelprotocol.com/terms-and-condition.html" target="_blank">Terms & Conditions</a> </li>
-</ul>
-</div>
+
         </div> 
         </div>
       

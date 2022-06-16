@@ -8,8 +8,9 @@ interface DetailBoxProps {
 
 const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
   const textColor = useColorModeValue("#333333", "#F1F5F8");
-  const borderColor = useColorModeValue("#DEE5ED", "#161616");
+  const borderColor = useColorModeValue("#DEE5ED", "#f47904");
   const secondaryText = useColorModeValue("#666666", "#DCE6EF");
+  const backgroundColor = useColorModeValue("#DEE5ED", "#171717");
 
   return (
     <Box
@@ -19,6 +20,7 @@ const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
       my={4}
       mx={3}
       textAlign={"center"}
+      backgroundColor = {backgroundColor}
     >
       <VStack>
         <Box>
@@ -31,7 +33,7 @@ const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
             color={textColor}
             my={"4px"}
           >
-            {details.length >= 1 && inputDetails !== '' ? details[0].name : details.length <= 1 && inputDetails !== '' ? inputDetails  : 'Rigel Protocol'}
+            {details.length >= 1 && inputDetails !== '' ? details[0].name : details.length <= 1 && inputDetails !== '' ? inputDetails  : ''}
           </Text>
         </Box>
 
@@ -40,7 +42,7 @@ const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
             Token Amount
           </Text>
           <Text fontSize={"16px"} color={textColor} my={"4px"}>
-            {details.length >= 1 && inputDetails !== '' ? details[0].supply : details.length <= 1 && inputDetails !== '' ? '' : '20,000,000'}
+            {details.length >= 1 && inputDetails !== '' ? details[0].supply : details.length <= 1 && inputDetails !== '' ? '' : ''}
           </Text>
         </Box>
 
@@ -49,7 +51,7 @@ const DetailBox = ({details,inputDetails}:DetailBoxProps) => {
             Description
           </Text>
           <Text fontSize={"16px"} color={textColor} my={"4px"}>
-            {details.length >= 1 && inputDetails !== '' ? details[0].description : details.length <= 1 && inputDetails !== '' ? '' : 'Rigel Protocol is a decentralized protocol of several DeFi products. RigelProtocol is completely considered, initiated, developed, and driven by the Rigelprotocol community.'}
+            {details.length >= 1 && inputDetails !== '' ? details[0].description : details.length <= 1 && inputDetails !== '' ? '' : ''}
           </Text>
         </Box>
       </VStack>

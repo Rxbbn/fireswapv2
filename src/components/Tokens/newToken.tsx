@@ -36,7 +36,7 @@ const NewToken:React.FC<IModal> = ({
 
   const addToken = useAddUserToken()
 
-    const bgColor = useColorModeValue("#FFF", "#999999");
+    const bgColor = useColorModeValue("#FFF", "#191919");
     const boxShadow= useColorModeValue('#DEE6ED', '#161616');
     const lightTextColor = useColorModeValue("#666666", "#DCE6EF");
     const heavyTextColor = useColorModeValue("#333333", "#F1F5F8");

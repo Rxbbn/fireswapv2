@@ -29,7 +29,7 @@ const ConfirmationModal: React.FC<IModal> = ({
     showModal,
     setShowModal
 }) => {
-    const bgColour = useColorModeValue("#FFFFFF", "#999999");
+    const bgColour = useColorModeValue("#FFFFFF", "#191919");
     const textColour = useColorModeValue("#333333", "#F1F5F8");
     const closeBtnColour = useColorModeValue("#666666", "#DCE5EF");
     const closeButtonBgColour = useColorModeValue("#319EF6", "#008DFF");

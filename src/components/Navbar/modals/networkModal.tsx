@@ -12,12 +12,12 @@ const NetworkModal = ({
   displayNetwork: boolean;
   setDisplayNetwork: Function;
 }) => {
-  const bgColor3 = useColorModeValue('#DEE6ED', '#4A739B');
+  const bgColor3 = useColorModeValue('#DEE6ED', '#191919');
   const shadow = useColorModeValue(
     '0px 1px 7px -2px rgba(24, 39, 75, 0.06), 0px 2px 2px rgba(24, 39, 75, 0.06)',
     '0px 2px 4px -2px rgba(178, 193, 230, 0.12), 0px 4px 4px -2px rgba(178, 193, 230, 0.08)'
   );
-  const bg = useColorModeValue('#FFFFFF', '#999999');
+  const bg = useColorModeValue('#FFFFFF', '#191919');
   const buttonBorder = useColorModeValue('gray.200', 'gray.100');
   const { login } = useAuth();
 

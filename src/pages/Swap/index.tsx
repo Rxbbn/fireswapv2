@@ -12,7 +12,7 @@ const Swap = () => {
   const [isMobileDevice] = useMediaQuery("(max-width: 750px)");
   const [welcomeModal, setWelcomeModal] = useState(false);
   const [run, setRun] = useState(false);
-  const bgColor = useColorModeValue("#319EF6", "#4CAFFF");
+  const bgColor = useColorModeValue("#319EF6", "#191919");
 
    useUpdateBalance("");
 

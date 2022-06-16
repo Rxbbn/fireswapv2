@@ -28,7 +28,7 @@ const WelcomeModal: React.FC<IModal> = ({
     welcomeText,
     textHeader
 }) => {
-    const bgColor = useColorModeValue("#FFF", "#999999");
+    const bgColor = useColorModeValue("#FFF", "#191919");
     const secondarybgColor = useColorModeValue("#EBF6FE", "#EAF6FF");
     const textColor = useColorModeValue("#333333", "#F1F5F8");
 

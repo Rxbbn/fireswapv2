@@ -66,17 +66,17 @@ export default function AddLiquidity({
 }: RouteComponentProps<{ currencyIdA?: string; currencyIdB?: string }>) {
   const infoBg = useColorModeValue("#EBF6FE", "#EAF6FF");
   const genBorder = useColorModeValue("#DEE6ED", "#161616");
-  const bgColor = useColorModeValue("#F2F5F8", "#1d1d1d");
+  const bgColor = useColorModeValue("#F2F5F8", "#191919");
   const topIcons = useColorModeValue("#666666", "#DCE6EF");
   const textColorOne = useColorModeValue("#333333", "#F1F5F8");
   const btnTextColor = useColorModeValue("#999999", "#7599BD");
-  const approveButtonBgColor = useColorModeValue("#319EF6", "#4CAFFF");
+  const approveButtonBgColor = useColorModeValue("#319EF6", "#191919");
   const approveButtonColor = useColorModeValue("#FFFFFF", "#F1F5F8");
 
   const { independentField, typedValue, otherTypedValue } = useMintState();
   //const [loading, setLoading] = useState(false);
   const [run, setRun] = useState(false);
-  const bgColorRide = useColorModeValue("#319EF6", "#4CAFFF");
+  const bgColorRide = useColorModeValue("#319EF6", "#191919");
   const { onCurrencySelection, onUserInput, onCurrencyFor } =
     useMintActionHandlers();
   const {
@@ -585,6 +585,7 @@ export default function AddLiquidity({
         alignItems='center'
         p={4}
         mb={["110px", "110px", "4"]}
+        background="#121212"
       >
         <Flex>
           <ArrowBackIcon

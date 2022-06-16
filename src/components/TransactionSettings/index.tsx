@@ -46,7 +46,7 @@ const inputRegex = RegExp(`^\\d*(?:\\\\[.])?\\d*$`);
 const TransactionSettings = () => {
   const textColor = useColorModeValue("#333333", "#F1F5F8");
   const iconColor = useColorModeValue("#666666", "#DCE5EF");
-  const bgColor = useColorModeValue("#ffffff", "#999999");
+  const bgColor = useColorModeValue("#ffffff", "#1d1d1d");
   const buttonBgcolor = useColorModeValue("#FFFFFF", "#1d1d1d");
   const buttonBgColorTwo = useColorModeValue("#F2F5F8", "#161616");
   const textColorTwo = useColorModeValue("#666666", "#DCE6EF");
