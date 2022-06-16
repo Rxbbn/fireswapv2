@@ -240,7 +240,7 @@ setMinNav3(!minNav3)
              </div>
            </div>
            <div>
-           <img src={Liquidity} alt="" />
+           <img src={Liquidity} alt="" className="border-radius" />
                     </div>
          </div>
          <div className="section__3__top">
