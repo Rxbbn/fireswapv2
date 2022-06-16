@@ -124,30 +124,7 @@ const MobileNavDrawer = () => {
                     >
                       <Nav label="Straight Swap" to="/swap" />
                     </Text>
-                    <Text
-                      _hover={{ color: "#319EF6" }}
-                      mb={2}
-                      onClick={onClose}
-                    >
-                      <Nav
-                        label="auto-period"
-                        to={
-                          chainId === SupportedChainId.PHOENIX ? "/auto-period" : "#"
-                        }
-                      />
-                    </Text>
-                    <Text
-                      _hover={{ color: "#319EF6" }}
-                      mb={2}
-                      onClick={onClose}
-                    >
-                      <Nav
-                        label="Set Price"
-                        to={
-                          chainId === SupportedChainId.PHOENIX ? "/set-price" : "#"
-                        }
-                      />
-                    </Text>
+                   
                   </Flex>
                 </Collapse>
                 <Flex ml={6} mb={3} onClick={onClose}>

@@ -56,12 +56,7 @@ function SwapDropdown() {
         <MenuItem _focus={{ color: "#f47904" }}>
           <Nav label="Straight Swap" to="/swap" />
         </MenuItem>
-        <MenuItem _focus={{ color: "#f47904" }}>
-          <Nav label="Auto-period" to={chainId !== SupportedChainId.PHOENIXTEST && chainId !== SupportedChainId.PHOENIX && chainId !== SupportedChainId.POLYGON  ? '#' : '/auto-period'} />
-        </MenuItem>
-        <MenuItem _focus={{ color: "#f47904" }}>
-          <Nav label="Set Price" to={chainId !== SupportedChainId.PHOENIXTEST && chainId !== SupportedChainId.PHOENIX && chainId !== SupportedChainId.POLYGON  ? '#' :'/set-price' } />
-        </MenuItem>
+
       </MenuList>
     </Menu>
   );

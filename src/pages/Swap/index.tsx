@@ -29,8 +29,8 @@ const Swap = () => {
   }
 
   return (
-    <>
-      <Joyride
+    <> 
+      <Joyride 
         steps={tourSteps}
         run={run}
         continuous={true}
@@ -53,8 +53,8 @@ const Swap = () => {
         welcomeText='We would like to get you introduced to this platform and help you find your way around it.
                      If you’d love that, then take this short tour.'
       />
-      <Box fontSize='xl'>
-        <Flex
+      <Box fontSize='xl' className="herobg " >
+        <Flex className="herobg-layer"
           minH='100vh'
           zIndex={1}
           mt={6}
