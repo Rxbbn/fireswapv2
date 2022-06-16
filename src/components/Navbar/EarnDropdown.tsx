@@ -20,8 +20,8 @@ export const Nav = ({ to, label, active }: { to: string; label: string, active?:
       activeStyle={{
         color: "#319EF6",
       }}
-      color={active ? "#319EF6" : mobileNavColor}
-      style={active ? {color:"#319EF6"}: {color:""}}
+      color={active ? "#f47904" : mobileNavColor}
+      style={active ? {color:"#f47904"}: {color:""}}
     >
       {label}
     </NavLink>
@@ -52,7 +52,7 @@ function EarnDropdown() {
         transition="all 0.2s"
         rightIcon={<ChevronDownIcon />}
         fontWeight={200}
-        _focus={{ color: "#319EF6" }}
+        _focus={{ color: "#f47904" }}
         fontSize="14px"
         padding="5px 6px"
         textTransform={'capitalize'}
@@ -60,11 +60,11 @@ function EarnDropdown() {
         {useName()}
       </MenuButton>
       <MenuList>
-<MenuItem _focus={{ color: "#319EF6" }}>
+<MenuItem _focus={{ color: "#f47904" }}>
 <Nav label="Liquidity" to="/pool" active={name === '/add' || name === '/remove' ? true : false} />
  </MenuItem>
-<MenuItem _focus={{ color: "#319EF6" }}>
-          <Nav label="Farming" to="/farming-v2"  />
+<MenuItem _focus={{ color: "#f47904" }}>
+          <p  >Farming (Coming Soon!) </p>
  </MenuItem>
 
 </MenuList>

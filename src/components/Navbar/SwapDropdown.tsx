@@ -15,7 +15,7 @@ const Nav = ({ to, label }: { to: string; label: string }) => (
   <NavLink
     to={to}
     activeStyle={{
-      color: "#319EF6",
+      color: "#f47904",
     }}
   >
     {label}
@@ -45,7 +45,7 @@ function SwapDropdown() {
         transition="all 0.2s"
         rightIcon={<ChevronDownIcon />}
         fontWeight={200}
-        _focus={{ color: "#319EF6" }}
+        _focus={{ color: "#f47904" }}
         fontSize="14px"
         padding="5px 6px"
         textTransform={'capitalize'}
@@ -53,13 +53,13 @@ function SwapDropdown() {
         {useName()}
       </MenuButton>
       <MenuList>
-        <MenuItem _focus={{ color: "#319EF6" }}>
+        <MenuItem _focus={{ color: "#f47904" }}>
           <Nav label="Straight Swap" to="/swap" />
         </MenuItem>
-        <MenuItem _focus={{ color: "#319EF6" }}>
+        <MenuItem _focus={{ color: "#f47904" }}>
           <Nav label="Auto-period" to={chainId !== SupportedChainId.PHOENIXTEST && chainId !== SupportedChainId.PHOENIX && chainId !== SupportedChainId.POLYGON  ? '#' : '/auto-period'} />
         </MenuItem>
-        <MenuItem _focus={{ color: "#319EF6" }}>
+        <MenuItem _focus={{ color: "#f47904" }}>
           <Nav label="Set Price" to={chainId !== SupportedChainId.PHOENIXTEST && chainId !== SupportedChainId.PHOENIX && chainId !== SupportedChainId.POLYGON  ? '#' :'/set-price' } />
         </MenuItem>
       </MenuList>
