@@ -12,6 +12,8 @@ const baseStylePopper = {
   zIndex: 10,
 };
 const overrides = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
     styles,
     borders,
     // Other foundational style overrides go here
