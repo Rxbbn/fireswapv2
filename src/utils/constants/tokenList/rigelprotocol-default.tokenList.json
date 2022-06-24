@@ -15,7 +15,7 @@
       "name": "MetaTec",
       "chainId": 13381,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://ipfs.io/ipfs/QmZbgUgcpkD1YaQghfRBKbNqjG1daUEXoxGRofMsDzbkAV?filename=photo_2022-06-15_19-28-32.jpg",
       "address": "0xd0ECA7dd6055BBA7B7eAb721BAA20E8E1083C98f"
     },
     {
@@ -23,7 +23,7 @@
       "name": "Highlander",
       "chainId": 13381,
       "decimals": 18,
-      "logoURI": "",
+      "logoURI": "https://freesvg.org/img/ScottishHighlander.png",
       "address": "0x793Cf9c4c405C8e9203FA2EBF704F3c746Da7bEf"
     },
     {
@@ -32,7 +32,31 @@
       "address": "0xcb186051DD62914B6dFc56c257823bfDA20DbEe6",
       "chainId": 13381,
       "decimals": 18,
-      "logoURI": "https://pancakeswap.finance/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/21700/small/phoenix.png?1639728227"
+    },
+    {
+      "name": "Preparation-H",
+      "symbol": "PH",
+      "address": "0xff35B8cd283ca9Cc181267b657CD02b456470e44",
+      "chainId": 13381,
+      "decimals": 18,
+      "logoURI": "https://phoenix_foundation.mypinata.cloud/ipfs/QmPDEQwq46sgZAHjKrm3WkaScozu3HVpDNMiBuGe48RGPq"
+    },
+    {
+      "symbol": "Zebrocoin",
+      "name": "ZEBRO",
+      "chainId": 13381,
+      "decimals": 18,
+      "logoURI": "https://zebrocoin.info/assets/img/logo/zebro_phoenix/clearbg/zebrocoin_phoenix_logo_clearbg_256x256.png",
+      "address": "0x89c4434119b237922069673439c35f90025563c9"
+    },
+    {
+      "symbol": "ZebroUSD",
+      "name": "ZUSD",
+      "chainId": 13381,
+      "decimals": 18,
+      "logoURI": "https://zebrocoin.info/assets/img/logo/zusd/zebrousd_transparent_256.png",
+      "address": "0x6ea214917F28AD147E01201Cd88869332198D007"
     }
   ]
 }

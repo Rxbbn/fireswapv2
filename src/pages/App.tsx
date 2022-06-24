@@ -51,6 +51,10 @@ import Faq from "./SmartBid/Faq";
               <Route exact strict path="/" component={Index} />
               </Switch>
           <Navbar />
+          <div style={{marginTop: "20px", textAlign:'center', background:'#101010'}}>
+          <p > Use of Fireswap is fully on own risk. No projects are endoursed by Fireswap. Trade at your own risk!
+            </p>
+            </div>
           <Notify />
           <TransactionStateModal />
           <ErrorBoundary>

@@ -44,12 +44,7 @@ const WalletOptions = ({connect}: {connect: Function}) => {
         image: TrustWallet,
         id: ConnectorNames.Injected,
         connect
-    }, {
-        name: 'Binance Chain Wallet',
-        image: BinanceWallet,
-        id: ConnectorNames.BSC,
-        connect
-    }, {
+    },  {
         name: 'Wallet Connect',
         image: WalletConnect,
         id: ConnectorNames.WalletConnect,

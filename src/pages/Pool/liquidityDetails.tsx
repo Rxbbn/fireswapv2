@@ -67,6 +67,8 @@ const LiquidityDetails = (props: LiquidityDetail) => {
               ? "ROSE"
               : props.pair.path[0].token == "wROSE"
               ? "ROSE"
+              : props.pair.path[0].token == "WPHX"
+              ? "PHX"
               : props.pair.path[0].token}
             :
           </Text>
@@ -85,6 +87,8 @@ const LiquidityDetails = (props: LiquidityDetail) => {
               ? "ROSE"
               : props.pair.path[1].token === "wROSE"
               ? "ROSE"
+              : props.pair.path[1].token === "WPHX"
+              ? "PHX"
               : props.pair.path[1].token}
           </Text>
           <Text>{props.pair.pooledToken1}</Text>

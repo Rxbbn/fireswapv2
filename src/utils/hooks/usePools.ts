@@ -86,31 +86,24 @@ const getPoolData = async (
     getERC20Token(token0, library),
     getERC20Token(token1, library),
   ]);
-  const [symbol0, symbol1] = await Promise.all([
-    erc20Token0.symbol(),
-    erc20Token1.symbol(),
-  ]);
+const symbol0 = await erc20Token0.symbol();
 
-  const [decimals0, decimals1] = await Promise.all([
-    erc20Token0.decimals(),
-    erc20Token1.decimals(),
-  ]);
 
   const pooledToken0 = getPooledToken({
     balance,
     totalSupply,
     reserves: reserves[0],
-    decimals: decimals0,
+    decimals: 18
   });
   const pooledToken1 = getPooledToken({
     balance,
     totalSupply,
     reserves: reserves[1],
-    decimals: decimals1,
+    decimals: 18
   });
 
   const approved = allowance > balance;
-
+  var symbol1 = token1.substring(0,5) + "..." + token1.substr(-5);
   return {
     pairAddress: address,
     poolToken: ethers.utils.formatEther(balance),
@@ -124,7 +117,7 @@ const getPoolData = async (
         token: symbol0,
         amount: pooledToken0[0],
         amountWei: pooledToken0[1],
-        decimals: decimals0,
+        decimals: 18,
         reservesWei: reserves[0],
         multiplyreserves: pooledToken0[2],
       },
@@ -133,7 +126,7 @@ const getPoolData = async (
         token: symbol1,
         amount: pooledToken1[0],
         amountWei: pooledToken1[1],
-        decimals: decimals1,
+        decimals: 18,
         reservesWei: reserves[1],
         multiplyreserves: pooledToken1[2],
       },

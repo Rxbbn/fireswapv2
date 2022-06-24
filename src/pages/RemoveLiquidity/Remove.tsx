@@ -49,6 +49,7 @@ import { clearSearchResult } from "../../state/farming/action";
 import { GFailedTransaction, GSuccessfullyTransaction } from "../../components/G-analytics/gIndex";
 
 const Remove = () => {
+  
   const [isTabDevice] = useMediaQuery("(min-width: 990px)");
   const [isTabDevice2] = useMediaQuery("(max-width: 1200px)");
 
@@ -219,7 +220,7 @@ const Remove = () => {
                 ? ethers.utils.parseUnits(format2, 9).toString()
                 : null,
             gasPrice:
-              chainId === 137
+              chainId === 13381
                 ? null
                 : chainId === 80001
                 ? null
@@ -260,7 +261,7 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
-                  : pool?.path[0].token === "wPHX"
+                  : pool?.path[0].token === "WPHX"
                   ? "PHX"
                   : pool?.path[0].token
               }
@@ -274,7 +275,7 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
-                : pool?.path[1].token === "wPHX"
+                : pool?.path[1].token === "WPHX"
                 ? "PHX"
                 : pool?.path[1].token
             } LP token Removal`,
@@ -303,7 +304,7 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
-                : pool?.path[0].token === "wPHX"
+                : pool?.path[0].token === "WPHX"
                 ? "PHX"
                 : pool?.path[0].token
             }
@@ -317,7 +318,7 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
-              : pool?.path[1].token === "wPHX"
+              : pool?.path[1].token === "WPHX"
               ? "PHX"
               : pool?.path[1].token
           } LP token Removal`,
@@ -366,7 +367,7 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
-                : pool?.path[0].token === "wPHX"
+                : pool?.path[0].token === "WPHX"
                 ? "PHX"
                 : pool?.path[0].token
             }
@@ -380,7 +381,7 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
-              : pool?.path[1].token === "wPHX"
+              : pool?.path[1].token === "WPHX"
               ? "PHX"
               : pool?.path[1].token
           } `,
@@ -418,7 +419,7 @@ const Remove = () => {
                 ? ethers.utils.parseUnits(format2, 9).toString()
                 : null,
             gasPrice:
-              chainId === 137
+              chainId === 13381
                 ? null
                 : chainId === 80001
                 ? null
@@ -464,7 +465,7 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
-                  : pool?.path[0].token === "wPHX"
+                  : pool?.path[0].token === "WPHX"
                   ? "PHX"
                   : pool?.path[0].token
               }
@@ -478,7 +479,7 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
-                : pool?.path[1].token === "wPHX"
+                : pool?.path[1].token === "WPHX"
                 ? "PHX"
                 : pool?.path[1].token
             } `,
@@ -500,6 +501,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "WPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -512,6 +515,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "WPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token Removal`,
             trxState: TrxState.TransactionFailed,
@@ -537,6 +542,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "WPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -551,6 +558,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "WPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token Approval`,
             trxState: TrxState.WaitingForConfirmation,
@@ -591,6 +600,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "WPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             /
@@ -605,6 +616,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "WPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } LP token Approval`,
               trxState: TrxState.TransactionSuccessful,
@@ -623,6 +636,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "WPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             /
@@ -637,6 +652,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "WPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } LP token`,
               URL: explorerLink,
@@ -659,6 +676,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "WPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -673,6 +692,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "WPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token Approval`,
             trxState: TrxState.TransactionFailed,
@@ -698,6 +719,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "WPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -712,6 +735,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "WPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token`,
             trxState: TrxState.WaitingForConfirmation,
@@ -751,6 +776,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "WPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             /
@@ -765,6 +792,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "WPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } LP token`,
               trxState: TrxState.TransactionSuccessful,
@@ -783,6 +812,8 @@ const Remove = () => {
                   ? "ROSE"
                   : pool?.path[0].token === "wROSE"
                   ? "ROSE"
+                  : pool?.path[0].token === "WPHX"
+                  ? "PHX"
                   : pool?.path[0].token
               }
             /
@@ -797,6 +828,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[1].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[1].token === "WPHX"
+                ? "PHX"
                 : pool?.path[1].token
             } LP token`,
               URL: explorerLink,
@@ -819,6 +852,8 @@ const Remove = () => {
                 ? "ROSE"
                 : pool?.path[0].token === "wROSE"
                 ? "ROSE"
+                : pool?.path[0].token === "WPHX"
+                ? "PHX"
                 : pool?.path[0].token
             }
           /
@@ -833,6 +868,8 @@ const Remove = () => {
               ? "ROSE"
               : pool?.path[1].token === "wROSE"
               ? "ROSE"
+              : pool?.path[1].token === "WPHX"
+              ? "PHX"
               : pool?.path[1].token
           } LP token`,
             trxState: TrxState.TransactionFailed,
@@ -963,6 +1000,8 @@ const Remove = () => {
                         ? "ROSE"
                         : pool?.path[0].token === "wROSE"
                         ? "ROSE"
+                        : pool?.path[0].token === "WPHX"
+                        ? "PHX"
                         : pool?.path[0].token}{" "}
                       /{" "}
                       {pool?.path[1].token === "WBNB"
@@ -975,6 +1014,8 @@ const Remove = () => {
                         ? "ROSE"
                         : pool?.path[1].token === "wROSE"
                         ? "ROSE"
+                        : pool?.path[1].token === "WPHX"
+                        ? "PHX"
                         : pool?.path[1].token}
                     </Text>
                   </Flex>
@@ -1022,6 +1063,8 @@ const Remove = () => {
                           ? "ROSE"
                           : pool?.path[0].token === "wROSE"
                           ? "ROSE"
+                          : pool?.path[0].token === "WPHX"
+                          ? "PHX"
                           : pool?.path[0].token}
                         :
                       </Text>
@@ -1044,6 +1087,8 @@ const Remove = () => {
                           ? "ROSE"
                           : pool?.path[1].token === "wROSE"
                           ? "ROSE"
+                          : pool?.path[1].token === "WPHX"
+                          ? "PHX"
                           : pool?.path[1].token}
                         :
                       </Text>
@@ -1164,6 +1209,8 @@ const Remove = () => {
                         ? "ROSE"
                         : pool?.path[0].token === "wROSE"
                         ? "ROSE"
+                        : pool?.path[0].token === "WPHX"
+                        ? "PHX"
                         : pool?.path[0].token}
                     </Text>
                   </Flex>
@@ -1216,6 +1263,8 @@ const Remove = () => {
                         ? "ROSE"
                         : pool?.path[1].token === "wROSE"
                         ? "ROSE"
+                        : pool?.path[1].token === "WPHX"
+                        ? "PHX"
                         : pool?.path[1].token}
                     </Text>
                   </Flex>

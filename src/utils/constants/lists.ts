@@ -1,7 +1,7 @@
 
 export const OPTIMISM_LIST = 'https://static.optimism.io/optimism.tokenlist.json'
-export const MAIN_LIST = "https://raw.githubusercontent.com/Rxbbn/fireswapv2/main/src/utils/constants/tokenList/fireswap-default.tokenlist.json"
-export const DEFAULT_LIST ="https://raw.githubusercontent.com/Rxbbn/fireswapv2/main/src/utils/constants/tokenList/fireswap-default.tokenlist.json"
+export const MAIN_LIST = "https://raw.githubusercontent.com/Rxbbn/fireswapv2/main/src/utils/constants/tokenList/rigelprotocol-default.tokenList.json"
+export const DEFAULT_LIST ="https://raw.githubusercontent.com/Rxbbn/fireswapv2/main/src/utils/constants/tokenList/rigelprotocol-default.tokenList.json"
 export const UNSUPPORTED_LIST_URLS: string[] = []
 
 // lower index == higher priority for token import

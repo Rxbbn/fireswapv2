@@ -220,7 +220,7 @@ const SetPrice = () => {
   );
   useEffect(async () => {
     const checkBalance = async ()=>{
-     if(currencies[Field.INPUT]?.symbol==="RGP"){
+     if(currencies[Field.INPUT]?.symbol==="High"){
       let fee =await getFee()
       let amount = parseFloat(formattedAmounts[Field.INPUT]) + parseFloat(fee) 
       if(amount > parseFloat(balance) ){

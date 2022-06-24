@@ -27,6 +27,6 @@ export interface SerializedFarmConfig extends FarmConfigBaseProps {
   }
 
   export interface Address {
-    97?: string
+    13381?: string
     56: string
   }

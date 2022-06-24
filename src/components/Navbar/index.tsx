@@ -49,6 +49,7 @@ const Index = () => {
         <Flex px={6} py={2} boxShadow="sm">
           {isMobileDevice ? (
             <>
+            
               <Flex w="100%" justifyContent="space-between" h="10">
                 <Box mr={6}>
                   <NavLink to="/">

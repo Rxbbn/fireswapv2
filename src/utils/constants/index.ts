@@ -24,10 +24,10 @@ export const INITIAL_GASPRICE_INCREASE = (): number => {
 export const INITIAL_GAS = checkNetVersion() == "0x89" ?15 : 0;
 
 const BSC_MAIN_NET_ID =
-  window.ethereum !== undefined && window.ethereum.isTrust ? "56" : "0x38";
+  window.ethereum !== undefined && window.ethereum.isTrust ? "13381" : "0x38";
 
 const BSCMainnet = {
-  SmartFactory: "0x655333A1cD74232C404049AF9d2d6cF1244E71F6",
+  SmartFactory: "0xaeA039F542c88Cc14A6Ca38deeeECf91D9B790D6",
   SMART_SWAPPING: "0xf78234E21f1F34c4D8f65faF1BC82bfc0fa24920",
   ETHRGPSMARTSWAPPAIR: "0x9218BFB996A9385C3b9633f87e9D68304Ef5a1e5",
   specialPool: "0x100514759DCD6e2Ccbb9EB87481b96de28C4b77F",
